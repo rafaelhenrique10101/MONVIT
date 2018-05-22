@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_TC_MONVIT_CADC_001" time="70" tests="0" failures="1" errors="0">
+   <testsuite name="TS_TC_MONVIT_CADC_001" tests="0" failures="1" errors="0" time="70" timestamp="2018-05-22 10:55:40" hostname="rafael.henrique - MVBRRECDSK2925.mvrec.local" id="Test Suites/TS_TC_MONVIT_CADC_001">
+      <properties>
+         <property name="deviceName" value="motorola Moto G (5) (Android 7.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180522_105538"/>
+         <property name="logFiles" value="C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180522_105538\\appium.log, C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180522_105538\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180522_105538\\Screenshots/TC_MONVIT_CADC_001/1.png, C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180522_105538\\Screenshots/TC_MONVIT_CADC_001/2.png, C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180522_105538\\Screenshots/TC_MONVIT_CADC_001/3.png, C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180522_105538\\1526997407916.png"/>
+         <property name="hostName" value="rafael.henrique - MVBRRECDSK2925.mvrec.local"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.0"/>
+         <property name="deviceModel" value="Moto G (5)"/>
+         <property name="hostAddress" value="192.168.7.231"/>
+         <property name="deviceManufacturer" value="motorola"/>
+         <property name="deviceId" value="0038153251"/>
+         <property name="deviceName" value="motorola Moto G (5) (Android 7.0)"/>
+         <property name="deviceOSVersion" value="7.0"/>
+      </properties>
+      <testcase name="Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001" classname="Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001" status="FAILED">
+         <failure type="FAILED" message="Failed to set text into element (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2018-05-22 10:55:40 - [TEST_CASE][FAILED] - Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001: Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001 FAILED because (of) Failed to set text into element (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-05-22 10:55:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/START_APPLICATION/TC_START_APPLICATION' successfully
+
+2018-05-22 10:55:41 - [TEST_CASE][PASSED] - Test Cases/START_APPLICATION/TC_START_APPLICATION: Test Cases/START_APPLICATION/TC_START_APPLICATION
+
+2018-05-22 10:55:41 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\rafael.henrique\Katalon Studio\MONVAT\APK\MONVIT_v1.7.24.apk'
+
+2018-05-22 10:56:19 - [MESSAGE][PASSED] - Started app at: 'C:\Users\rafael.henrique\Katalon Studio\MONVAT\APK\MONVIT_v1.7.24.apk'
+
+2018-05-22 10:56:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/START_APPLICATION/TC_START_APPLICATION' successfully
+
+2018-05-22 10:56:19 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/NAVIGATION_MENU/TC_NAVIGATION_CADASTRO' successfully
+
+2018-05-22 10:56:19 - [TEST_CASE][PASSED] - Test Cases/NAVIGATION_MENU/TC_NAVIGATION_CADASTRO: Test Cases/NAVIGATION_MENU/TC_NAVIGATION_CADASTRO
+
+2018-05-22 10:56:20 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-22 10:56:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-22 10:56:25 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-05-22 10:56:25 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-05-22 10:56:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-22 10:56:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-22 10:56:27 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/OBJ_LOGIN_SCREEN/android.widget.Button1 - No tenho uma conta. Quero me cadastrar.'
+
+2018-05-22 10:56:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OBJ_LOGIN_SCREEN/android.widget.Button1 - No tenho uma conta. Quero me cadastrar.'
+
+2018-05-22 10:56:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-22 10:56:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-22 10:56:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/NAVIGATION_MENU/TC_NAVIGATION_CADASTRO' successfully
+
+2018-05-22 10:56:31 - [TEST_STEP][PASSED] - Statement - pathTestCaseName = "Screenshots/TC_MONVIT_CADC_001": null
+
+2018-05-22 10:56:31 - [TEST_STEP][PASSED] - Statement - folderTestCaseName = new java.io.File(pathTestCaseName): null
+
+2018-05-22 10:56:31 - [TEST_STEP][PASSED] - Statement - idxImgEvidence = 0: null
+
+2018-05-22 10:56:31 - [TEST_STEP][PASSED] - Statement - strMsgCampoObrigatorio = "Esse campo é obrigatório.": null
+
+2018-05-22 10:56:31 - [TEST_STEP][PASSED] - Statement - strMsgNomeCompleto = "Você precisa informar o seu nome completo": null
+
+2018-05-22 10:56:31 - [TEST_STEP][PASSED] - Statement - strInvalidCPF = "CPF inválido": null
+
+2018-05-22 10:56:31 - [TEST_STEP][PASSED] - Statement - strMinCharactersCPF = "Pelo menos 11 caracteres": null
+
+2018-05-22 10:56:31 - [TEST_STEP][PASSED] - Statement - strMaxAgeDate = "A idade máxima é de 150 anos": null
+
+2018-05-22 10:56:31 - [TEST_STEP][PASSED] - Statement - strMinAgeDate = "A idade mínima é de 5 anos": null
+
+2018-05-22 10:56:31 - [TEST_STEP][PASSED] - Statement - strInvalidEmail = "Endereço de email inválido": null
+
+2018-05-22 10:56:31 - [TEST_STEP][PASSED] - Statement - strPassSmall = "Senha muito curta": null
+
+2018-05-22 10:56:31 - [TEST_STEP][PASSED] - Statement - strUseTerms = "Senha muito curta": null
+
+2018-05-22 10:56:31 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-05-22 10:56:33 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-05-22 10:56:33 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/OBJ_SCREEN_REGISTER/btnSalvar'
+
+2018-05-22 10:56:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OBJ_SCREEN_REGISTER/btnSalvar'
+
+2018-05-22 10:56:35 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-22 10:56:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-22 10:56:36 - [TEST_STEP][PASSED] - Statement - If (!(folderTestCaseName.exists())): null
+
+2018-05-22 10:56:36 - [TEST_STEP][PASSED] - setText: Text '' has been set to element 'Object Repository/OBJ_SCREEN_REGISTER/txtNomeCompleto'
+
+2018-05-22 10:56:37 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/OBJ_SCREEN_REGISTER/txtNomeCompleto'
+
+2018-05-22 10:56:37 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OBJ_SCREEN_REGISTER/MSG_VALIDATIONS/lblValidationNomeCompleto), "text", 5) == strMsgCampoObrigatorio): null
+
+2018-05-22 10:56:38 - [MESSAGE][PASSED] - Element 'Object Repository/OBJ_SCREEN_REGISTER/MSG_VALIDATIONS/lblValidationNomeCompleto' has attribute 'text' is 'Esse campo é obrigatório.'
+
+2018-05-22 10:56:38 - [TEST_STEP][PASSED] - takeScreenshot: Screenshot is taken
+
+2018-05-22 10:56:39 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180522_105538\\Screenshots/TC_MONVIT_CADC_001/1.png]]
+
+2018-05-22 10:56:39 - [TEST_STEP][PASSED] - Statement - idxImgEvidence = idxImgEvidence + 1: null
+
+2018-05-22 10:56:39 - [TEST_STEP][PASSED] - setText: Text '' has been set to element 'Object Repository/OBJ_SCREEN_REGISTER/txtCPF'
+
+2018-05-22 10:56:41 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/OBJ_SCREEN_REGISTER/txtCPF'
+
+2018-05-22 10:56:41 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OBJ_SCREEN_REGISTER/MSG_VALIDATIONS/lblValidationCPF), "text", 5) == strMsgCampoObrigatorio): null
+
+2018-05-22 10:56:42 - [MESSAGE][PASSED] - Element 'Object Repository/OBJ_SCREEN_REGISTER/MSG_VALIDATIONS/lblValidationCPF' has attribute 'text' is 'Esse campo é obrigatório.'
+
+2018-05-22 10:56:42 - [TEST_STEP][PASSED] - takeScreenshot: Screenshot is taken
+
+2018-05-22 10:56:43 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180522_105538\\Screenshots/TC_MONVIT_CADC_001/2.png]]
+
+2018-05-22 10:56:43 - [TEST_STEP][PASSED] - Statement - idxImgEvidence = idxImgEvidence + 1: null
+
+2018-05-22 10:56:43 - [TEST_STEP][PASSED] - setText: Text '' has been set to element 'Object Repository/OBJ_SCREEN_REGISTER/txtDataNascimento'
+
+2018-05-22 10:56:45 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/OBJ_SCREEN_REGISTER/txtDataNascimento'
+
+2018-05-22 10:56:45 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OBJ_SCREEN_REGISTER/MSG_VALIDATIONS/lblValidationDataNascimento), "text", 5) == strMsgCampoObrigatorio): null
+
+2018-05-22 10:56:46 - [MESSAGE][PASSED] - Element 'Object Repository/OBJ_SCREEN_REGISTER/MSG_VALIDATIONS/lblValidationDataNascimento' has attribute 'text' is 'Esse campo é obrigatório.'
+
+2018-05-22 10:56:46 - [TEST_STEP][PASSED] - takeScreenshot: Screenshot is taken
+
+2018-05-22 10:56:47 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180522_105538\\Screenshots/TC_MONVIT_CADC_001/3.png]]
+
+2018-05-22 10:56:47 - [TEST_STEP][PASSED] - Statement - idxImgEvidence = idxImgEvidence + 1: null
+
+2018-05-22 10:56:47 - [TEST_STEP][FAILED] - setText: Failed to set text into element (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2018-05-22 10:56:47 - [MESSAGE][WARNING] - Test object with id 'Object Repository/OBJ_SCREEN_REGISTER/android.widget.EditText1 - Text - DDD Celular' does not exist
+
+2018-05-22 10:56:47 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2018-05-22 10:56:49 - [MESSAGE][FAILED] - Failed to set text into element (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180522_105538\\1526997407916.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-22 10:55:40 - [TEST_CASE][FAILED] - Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001: Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001 FAILED because (of) Failed to set text into element (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-22 10:55:40 - [TEST_SUITE][FAILED] - TS_TC_MONVIT_CADC_001: Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001 FAILED because (of) Failed to set text into element (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-out>
+      <system-err><![CDATA[2018-05-22 10:55:40 - [TEST_SUITE][FAILED] - TS_TC_MONVIT_CADC_001: Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001 FAILED because (of) Failed to set text into element (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+   </testsuite>
+</testsuites>

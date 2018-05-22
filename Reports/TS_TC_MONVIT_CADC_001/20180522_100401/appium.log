@@ -92,3 +92,7 @@
 [35m[HTTP][39m [90m{"type":"implicit","ms":30000}[39m
 [35m[HTTP][39m [37m<-- POST /wd/hub/session/827e294c-4562-41c0-bef0-c598dac817b3/timeouts [39m[33m400[39m [90m10 ms - 5628[39m
 [35m[HTTP][39m [90m[39m
+[35m[BaseDriver][39m Shutting down because we waited 1800 seconds for a command
+[35m[Appium][39m Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[35m[Appium][39m Removing session 827e294c-4562-41c0-bef0-c598dac817b3 from our master session list
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: ProxyRequestError: Could not proxy command to remote server. Original error: Error: read ECONNRESET

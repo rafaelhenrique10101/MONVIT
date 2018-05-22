@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_TC_MONVIT_CADC_001,,,2018-05-22 11:45:50,2018-05-22 11:46:47,"56,792s",PASSED
+,,,,,,
+Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001,,TC_MONVIT_CADC_001 - Validar obrigatoriedade dos campos abaixo no formul\u00E1rio de cria\u00E7\u00E3o de conta N\u00C3O preenchendo e clicando em salvar\n\nNome completo\nCPF\nData de nascimento\nTelefone celular\nEmail\nConfirme seu email\nSenha\nConfirme sua senha\nTermos de uso,2018-05-22 11:45:50,2018-05-22 11:46:45,"54,892s",PASSED
+callTestCase,,,2018-05-22 11:45:50,2018-05-22 11:46:26,"35,969s",PASSED
+callTestCase,,,2018-05-22 11:46:26,2018-05-22 11:46:38,"11,688s",PASSED
+"Statement - pathTestCaseName = ""Screenshots/TC_MONVIT_CADC_001""",,,2018-05-22 11:46:38,2018-05-22 11:46:38,"0,001s",PASSED
+Statement - folderTestCaseName = new java.io.File(pathTestCaseName),,,2018-05-22 11:46:38,2018-05-22 11:46:38,"0,002s",PASSED
+Statement - idxImgEvidence = 0,,,2018-05-22 11:46:38,2018-05-22 11:46:38,"0,001s",PASSED
+"Statement - strMsgCampoObrigatorio = ""Esse campo é obrigatório.""",,,2018-05-22 11:46:38,2018-05-22 11:46:38,"0,001s",PASSED
+"Statement - strMsgNomeCompleto = ""Você precisa informar o seu nome completo""",,,2018-05-22 11:46:38,2018-05-22 11:46:38,"0,002s",PASSED
+"Statement - strInvalidCPF = ""CPF inválido""",,,2018-05-22 11:46:38,2018-05-22 11:46:38,"0,001s",PASSED
+"Statement - strMinCharactersCPF = ""Pelo menos 11 caracteres""",,,2018-05-22 11:46:38,2018-05-22 11:46:38,"0,002s",PASSED
+"Statement - strMaxAgeDate = ""A idade máxima é de 150 anos""",,,2018-05-22 11:46:38,2018-05-22 11:46:38,"0,001s",PASSED
+"Statement - strMinAgeDate = ""A idade mínima é de 5 anos""",,,2018-05-22 11:46:38,2018-05-22 11:46:38,"0,000s",PASSED
+"Statement - strInvalidEmail = ""Endereço de email inválido""",,,2018-05-22 11:46:38,2018-05-22 11:46:38,"0,001s",PASSED
+"Statement - strPassSmall = ""Senha muito curta""",,,2018-05-22 11:46:38,2018-05-22 11:46:38,"0,001s",PASSED
+"Statement - strUseTerms = ""Senha muito curta""",,,2018-05-22 11:46:38,2018-05-22 11:46:38,"0,001s",PASSED
+hideKeyboard,,,2018-05-22 11:46:38,2018-05-22 11:46:40,"1,726s",PASSED
+tap,,,2018-05-22 11:46:40,2018-05-22 11:46:41,"1,636s",PASSED
+delay,,,2018-05-22 11:46:41,2018-05-22 11:46:42,"1,003s",PASSED
+Statement - If (!(folderTestCaseName.exists())),,,2018-05-22 11:46:42,2018-05-22 11:46:42,"0,002s",PASSED
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OBJ_SCREEN_REGISTER/MSG_VALIDATIONS/lblValidationNomeCompleto), ""text"", 5) == strMsgCampoObrigatorio && com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OBJ_SCREEN_REGISTER/MSG_VALIDATIONS/lblValidationCPF), ""text"", 5) == strMsgCampoObrigatorio && com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OBJ_SCREEN_REGISTER/MSG_VALIDATIONS/lblValidationDataNascimento), ""text"", 5) == strMsgCampoObrigatorio)",,,2018-05-22 11:46:42,2018-05-22 11:46:45,"2,597s",PASSED

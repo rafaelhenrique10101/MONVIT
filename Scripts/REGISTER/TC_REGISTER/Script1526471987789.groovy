@@ -33,7 +33,7 @@ Mobile.pressBack()
 
 Mobile.tap(findTestObject('OBJ_LOGIN_SCREEN/android.widget.Button1 - No tenho uma conta. Quero me cadastrar.'), 5)
 
-def titleViewRegister = Mobile.getText(findTestObject('Object Repository/OBJ_SCREEN_REGISTER/android.widget.TextView0 - Crie sua conta'), 
+def titleViewRegister = Mobile.getText(findTestObject('OBJ_SCREEN_REGISTER/btnCriarConta'), 
     10)
 
 Mobile.delay(5, FailureHandling.CONTINUE_ON_FAILURE)

@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_TC_MONVIT_CADC_001,,,2018-05-22 11:14:11,2018-05-22 11:15:05,"54,129s",ERROR
+,,,,,,
+Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001,,TC_MONVIT_CADC_001 - Validar obrigatoriedade dos campos abaixo no formul\u00E1rio de cria\u00E7\u00E3o de conta N\u00C3O preenchendo e clicando em salvar\n\nNome completo\nCPF\nData de nascimento\nTelefone celular\nEmail\nConfirme seu email\nSenha\nConfirme sua senha\nTermos de uso,2018-05-22 11:14:12,2018-05-22 11:15:04,"52,530s",ERROR
+callTestCase,,,2018-05-22 11:14:12,2018-05-22 11:14:48,"35,544s",PASSED
+callTestCase,,,2018-05-22 11:14:48,2018-05-22 11:15:00,"11,985s",PASSED
+"Statement - pathTestCaseName = ""Screenshots/TC_MONVIT_CADC_001""",,,2018-05-22 11:15:00,2018-05-22 11:15:00,"0,002s",PASSED
+Statement - folderTestCaseName = new java.io.File(pathTestCaseName),,,2018-05-22 11:15:00,2018-05-22 11:15:00,"0,002s",PASSED
+Statement - idxImgEvidence = 0,,,2018-05-22 11:15:00,2018-05-22 11:15:00,"0,002s",PASSED
+"Statement - strMsgCampoObrigatorio = ""Esse campo é obrigatório.""",,,2018-05-22 11:15:00,2018-05-22 11:15:00,"0,001s",PASSED
+"Statement - strMsgNomeCompleto = ""Você precisa informar o seu nome completo""",,,2018-05-22 11:15:00,2018-05-22 11:15:00,"0,001s",PASSED
+"Statement - strInvalidCPF = ""CPF inválido""",,,2018-05-22 11:15:00,2018-05-22 11:15:00,"0,001s",PASSED
+"Statement - strMinCharactersCPF = ""Pelo menos 11 caracteres""",,,2018-05-22 11:15:00,2018-05-22 11:15:00,"0,002s",PASSED
+"Statement - strMaxAgeDate = ""A idade máxima é de 150 anos""",,,2018-05-22 11:15:00,2018-05-22 11:15:00,"0,000s",PASSED
+"Statement - strMinAgeDate = ""A idade mínima é de 5 anos""",,,2018-05-22 11:15:00,2018-05-22 11:15:00,"0,001s",PASSED
+"Statement - strInvalidEmail = ""Endereço de email inválido""",,,2018-05-22 11:15:00,2018-05-22 11:15:00,"0,001s",PASSED
+"Statement - strPassSmall = ""Senha muito curta""",,,2018-05-22 11:15:00,2018-05-22 11:15:00,"0,001s",PASSED
+"Statement - strUseTerms = ""Senha muito curta""",,,2018-05-22 11:15:00,2018-05-22 11:15:00,"0,001s",PASSED
+hideKeyboard,,,2018-05-22 11:15:00,2018-05-22 11:15:01,"1,762s",PASSED
+tap,,,2018-05-22 11:15:01,2018-05-22 11:15:03,"1,694s",PASSED
+delay,,,2018-05-22 11:15:03,2018-05-22 11:15:04,"1,004s",PASSED
+Statement - If (!(folderTestCaseName.exists())),,,2018-05-22 11:15:04,2018-05-22 11:15:04,"0,002s",PASSED
+setText,,,2018-05-22 11:15:04,2018-05-22 11:15:04,"0,016s",PASSED
