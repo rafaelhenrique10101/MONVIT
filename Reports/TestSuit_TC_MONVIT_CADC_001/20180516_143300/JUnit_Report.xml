@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuit_TC_MONVIT_CADC_001" time="6" tests="0" failures="2" errors="0">
+   <testsuite name="TestSuit_TC_MONVIT_CADC_001" tests="0" failures="2" errors="0" time="6" timestamp="2018-05-16 14:33:01" hostname="rafael.henrique - MVBRRECDSK2925.mvrec.local" id="Test Suites/TestSuit_TC_MONVIT_CADC_001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TestSuit_TC_MONVIT_CADC_001\\20180516_143300"/>
+         <property name="logFiles" value="C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TestSuit_TC_MONVIT_CADC_001\\20180516_143300\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rafael.henrique - MVBRRECDSK2925.mvrec.local"/>
+         <property name="hostAddress" value="192.168.7.231"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+      </properties>
+      <testcase name="Test Cases/START_APPLICATION/TC_START_APPLICATION" classname="Test Cases/START_APPLICATION/TC_START_APPLICATION" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: 'APK/MONVIT_v1.7.22.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)"/>
+         <system-out><![CDATA[2018-05-16 14:33:02 - [TEST_CASE][FAILED] - Test Cases/START_APPLICATION/TC_START_APPLICATION: Test Cases/START_APPLICATION/TC_START_APPLICATION FAILED because (of) Unable to start app at: 'APK/MONVIT_v1.7.22.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)
+
+2018-05-16 14:33:02 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: 'APK/MONVIT_v1.7.22.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)
+
+2018-05-16 14:33:02 - [MESSAGE][FAILED] - Unable to start app at: 'APK/MONVIT_v1.7.22.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)]]></system-out>
+         <system-err><![CDATA[2018-05-16 14:33:02 - [TEST_CASE][FAILED] - Test Cases/START_APPLICATION/TC_START_APPLICATION: Test Cases/START_APPLICATION/TC_START_APPLICATION FAILED because (of) Unable to start app at: 'APK/MONVIT_v1.7.22.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/REGISTER/TC_REGISTER" classname="Test Cases/REGISTER/TC_REGISTER" status="FAILED">
+         <failure type="FAILED" message="No driver found"/>
+         <system-out><![CDATA[2018-05-16 14:33:02 - [TEST_CASE][FAILED] - Test Cases/REGISTER/TC_REGISTER: Test Cases/REGISTER/TC_REGISTER FAILED because (of) No driver found
+
+2018-05-16 14:33:02 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-16 14:33:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-16 14:33:07 - [TEST_STEP][PASSED] - pressBack: null]]></system-out>
+         <system-err><![CDATA[2018-05-16 14:33:02 - [TEST_CASE][FAILED] - Test Cases/REGISTER/TC_REGISTER: Test Cases/REGISTER/TC_REGISTER FAILED because (of) No driver found]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-16 14:33:01 - [TEST_SUITE][FAILED] - TestSuit_TC_MONVIT_CADC_001: Test Cases/START_APPLICATION/TC_START_APPLICATION FAILED because (of) Unable to start app at: 'APK/MONVIT_v1.7.22.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)]]></system-out>
+      <system-err><![CDATA[2018-05-16 14:33:01 - [TEST_SUITE][FAILED] - TestSuit_TC_MONVIT_CADC_001: Test Cases/START_APPLICATION/TC_START_APPLICATION FAILED because (of) Unable to start app at: 'APK/MONVIT_v1.7.22.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)]]></system-err>
+   </testsuite>
+</testsuites>

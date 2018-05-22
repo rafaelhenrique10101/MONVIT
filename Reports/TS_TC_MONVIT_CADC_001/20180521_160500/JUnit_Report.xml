@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_TC_MONVIT_CADC_001" time="35" tests="0" failures="0" errors="1">
+   <testsuite name="TS_TC_MONVIT_CADC_001" tests="0" failures="0" errors="1" time="35" timestamp="2018-05-21 16:05:01" hostname="rafael.henrique - MVBRRECDSK2925.mvrec.local" id="Test Suites/TS_TC_MONVIT_CADC_001">
+      <properties>
+         <property name="deviceName" value="motorola XT1058 (Android 5.1)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180521_160500"/>
+         <property name="logFiles" value="C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180521_160500\\appium.log, C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180521_160500\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rafael.henrique - MVBRRECDSK2925.mvrec.local"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.0"/>
+         <property name="deviceModel" value="XT1058"/>
+         <property name="hostAddress" value="192.168.7.231"/>
+         <property name="deviceManufacturer" value="motorola"/>
+         <property name="deviceId" value="0422530563"/>
+         <property name="deviceName" value="motorola XT1058 (Android 5.1)"/>
+         <property name="deviceOSVersion" value="5.1"/>
+      </properties>
+      <testcase name="Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001" classname="Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001" status="ERROR">
+         <error type="ERROR" message="Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001 FAILED because (of) java.lang.RuntimeException: Unexpected result for screenshot command: com.google.common.collect.Maps$TransformedEntriesMap instance"/>
+         <system-out><![CDATA[2018-05-21 16:05:01 - [TEST_CASE][ERROR] - Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001: Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001 FAILED because (of) java.lang.RuntimeException: Unexpected result for screenshot command: com.google.common.collect.Maps$TransformedEntriesMap instance
+
+2018-05-21 16:05:01 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/START_APPLICATION/TC_START_APPLICATION' successfully
+
+2018-05-21 16:05:01 - [TEST_CASE][PASSED] - Test Cases/START_APPLICATION/TC_START_APPLICATION: Test Cases/START_APPLICATION/TC_START_APPLICATION
+
+2018-05-21 16:05:01 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\rafael.henrique\Katalon Studio\MONVAT\APK\MONVIT_v1.7.22.apk'
+
+2018-05-21 16:05:22 - [MESSAGE][PASSED] - Started app at: 'C:\Users\rafael.henrique\Katalon Studio\MONVAT\APK\MONVIT_v1.7.22.apk'
+
+2018-05-21 16:05:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/START_APPLICATION/TC_START_APPLICATION' successfully
+
+2018-05-21 16:05:22 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/NAVIGATION_MENU/TC_NAVIGATION_CADASTRO' (Root cause: Call Test Case 'Test Cases/NAVIGATION_MENU/TC_NAVIGATION_CADASTRO' failed because of error(s))
+
+2018-05-21 16:05:22 - [TEST_CASE][ERROR] - Test Cases/NAVIGATION_MENU/TC_NAVIGATION_CADASTRO: Test Cases/NAVIGATION_MENU/TC_NAVIGATION_CADASTRO FAILED because (of) java.lang.RuntimeException: Unexpected result for screenshot command: com.google.common.collect.Maps$TransformedEntriesMap instance
+
+2018-05-21 16:05:22 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-21 16:05:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-21 16:05:27 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-05-21 16:05:28 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-05-21 16:05:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-21 16:05:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-21 16:05:30 - [TEST_STEP][PASSED] - tap: Checking timeout
+
+2018-05-21 16:05:36 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/NAVIGATION_MENU/TC_NAVIGATION_CADASTRO' (Root cause: Call Test Case 'Test Cases/NAVIGATION_MENU/TC_NAVIGATION_CADASTRO' failed because of error(s))]]></system-out>
+         <system-err><![CDATA[2018-05-21 16:05:01 - [TEST_CASE][ERROR] - Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001: Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001 FAILED because (of) java.lang.RuntimeException: Unexpected result for screenshot command: com.google.common.collect.Maps$TransformedEntriesMap instance]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-21 16:05:01 - [TEST_SUITE][ERROR] - TS_TC_MONVIT_CADC_001: Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001 FAILED because (of) java.lang.RuntimeException: Unexpected result for screenshot command: com.google.common.collect.Maps$TransformedEntriesMap instance]]></system-out>
+      <system-err><![CDATA[2018-05-21 16:05:01 - [TEST_SUITE][ERROR] - TS_TC_MONVIT_CADC_001: Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001 FAILED because (of) java.lang.RuntimeException: Unexpected result for screenshot command: com.google.common.collect.Maps$TransformedEntriesMap instance]]></system-err>
+   </testsuite>
+</testsuites>

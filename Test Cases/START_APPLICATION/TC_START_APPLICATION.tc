@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase which start application Monitoring Vitals</description>
+   <name>TC_START_APPLICATION</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4d416d39-c22a-468b-937a-a36a8622fb17</testCaseGuid>
+   <variable>
+      <defaultValue>'APK/MONVIT_v1.7.24.apk'</defaultValue>
+      <description></description>
+      <id>a5a53ac3-f86b-4371-963e-c1989d265c0f</id>
+      <masked>false</masked>
+      <name>pathApp</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="teste" time="5" tests="1" failures="0" errors="0">
+   <testsuite name="teste" tests="1" failures="0" errors="0" time="5" timestamp="2018-05-14 10:29:18" hostname="rafael.henrique - MVBRRECDSK2925.mvrec.local" id="Test Suites/teste">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\teste\\20180514_102916"/>
+         <property name="logFiles" value="C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\teste\\20180514_102916\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rafael.henrique - MVBRRECDSK2925.mvrec.local"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.7.231"/>
+         <property name="sessionId" value="af261960a47b8c5cafc293d44045f741"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/LOGIN/TC_LOGIN" classname="Test Cases/LOGIN/TC_LOGIN" status="PASSED">
+         <system-out><![CDATA[2018-05-14 10:29:18 - [TEST_CASE][PASSED] - Test Cases/LOGIN/TC_LOGIN: Test Cases/LOGIN/TC_LOGIN
+
+2018-05-14 10:29:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-14 10:29:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-14 10:29:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://www.emtuapresenca.com' successfully
+
+2018-05-14 10:29:23 - [MESSAGE][PASSED] - Navigate to 'http://www.emtuapresenca.com' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-14 10:29:18 - [TEST_SUITE][PASSED] - teste: Test Cases/LOGIN/TC_LOGIN]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>Projeto que contém os scripts de automação do Monitoring Vitals</description>
+   <name>MONVAT</name>
+   <tag></tag>
+   <UUID>2ac7811e-9dd7-4683-afff-5cb01275721a</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>

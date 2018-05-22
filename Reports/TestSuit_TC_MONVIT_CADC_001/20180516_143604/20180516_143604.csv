@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuit_TC_MONVIT_CADC_001,,,2018-05-16 14:36:05,2018-05-16 14:36:57,"52,067s",PASSED
+,,,,,,
+Test Cases/START_APPLICATION/TC_START_APPLICATION,,TestCase which start application Monitoring Vitals,2018-05-16 14:36:06,2018-05-16 14:36:41,"35,570s",PASSED
+startApplication,,,2018-05-16 14:36:06,2018-05-16 14:36:41,"35,329s",PASSED
+,,,,,,
+Test Cases/REGISTER/TC_REGISTER,,TestCase to register a new user in Monitoring Vitals,2018-05-16 14:36:41,2018-05-16 14:36:56,"14,751s",PASSED
+delay,,,2018-05-16 14:36:41,2018-05-16 14:36:46,"5,023s",PASSED
+pressBack,,,2018-05-16 14:36:46,2018-05-16 14:36:47,"0,698s",PASSED
+tap,,,2018-05-16 14:36:47,2018-05-16 14:36:49,"2,421s",PASSED
+"Statement - titleViewRegister = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/OBJ_SCREEN_REGISTER/android.widget.TextView0 - Crie sua conta), 10)",,,2018-05-16 14:36:49,2018-05-16 14:36:50,"0,490s",PASSED
+delay,,,2018-05-16 14:36:50,2018-05-16 14:36:55,"5,003s",PASSED
+"Statement - If (titleViewRegister == ""Crie sua conta"")",,,2018-05-16 14:36:55,2018-05-16 14:36:56,"1,023s",PASSED

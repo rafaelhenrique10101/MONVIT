@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase que navega para o menu de Ficha clínica a partir de qualquer tela</description>
+   <name>TC_NAVIGATION_FICHA_CLINICA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d5a7773c-96f0-4e78-ab73-8b3b9318d998</testCaseGuid>
+</TestCaseEntity>

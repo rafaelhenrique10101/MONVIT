@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase que navega para o menu de Meus dados a partir de qualquer tela</description>
+   <name>TC_NAVIGATION_MEUS_DADOS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c06b11fd-b434-4377-956d-279a4770ee15</testCaseGuid>
+</TestCaseEntity>

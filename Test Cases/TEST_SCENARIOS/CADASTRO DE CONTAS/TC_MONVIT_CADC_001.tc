@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TC_MONVIT_CADC_001 - Validar obrigatoriedade dos campos abaixo no formulário de criação de conta NÃO preenchendo e clicando em salvar
+
+Nome completo
+CPF
+Data de nascimento
+Telefone celular
+Email
+Confirme seu email
+Senha
+Confirme sua senha
+Termos de uso</description>
+   <name>TC_MONVIT_CADC_001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7028d8e3-60c5-457d-add2-5390d109923a</testCaseGuid>
+</TestCaseEntity>

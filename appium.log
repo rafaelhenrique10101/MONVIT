@@ -1,0 +1,409 @@
+[35m[Appium][39m Welcome to Appium v1.8.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 50164
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   chromeDriverPort: 50165
+[35m[Appium][39m   tmpDir: C:\Users\RAFAEL~1.HEN\AppData\Local\Temp\\Katalon\Appium\Temp1526931933931
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:50164
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m8 ms - 83[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m4 ms - 83[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\APK\\MONVIT_v1.7.24.apk","autoGrantPermissions":true,"deviceName":"motorola XT1058 (Android 5.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"0422530563"},"capabilities":{"desiredCapabilities":{"app":"C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\APK\\MONVIT_v1.7.24.apk","autoGrantPermissions":true,"deviceName":"motorola XT1058 (Android 5.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"0422530563"},"firstMatch":[{"platformName":"android"}]}}[39m
+[35m[Appium][39m Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
+[35m[Appium][39m The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["app","autoGrantPermissions","deviceName","fullReset","newCommandTimeout","noReset","platform","platformName","udid"]. Falling back to JSONWP protocol.
+[35m[Appium][39m Creating new AndroidDriver (v2.4.1) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   app: C:\Users\rafael.henrique\Katalon Studio\MONVAT\APK\MONVIT_v1.7.24.apk
+[35m[Appium][39m   autoGrantPermissions: true
+[35m[Appium][39m   deviceName: motorola XT1058 (Android 5.1)
+[35m[Appium][39m   fullReset: false
+[35m[Appium][39m   newCommandTimeout: 1800
+[35m[Appium][39m   noReset: true
+[35m[Appium][39m   platform: ANDROID
+[35m[Appium][39m   platformName: Android
+[35m[Appium][39m   udid: 0422530563
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by appium: platform.
+[35m[BaseDriver][39m Session created with session id: e5130d5c-1917-4f78-80fd-d1deeee5041e
+[35m[AndroidDriver][39m Java version is: 1.8.0_102
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\rafael.henrique\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/rafael.henrique/.katalon/tools/android_sdk/build-tools/28.0.0
+[35m[ADB][39m Using adb.exe from C:\Users\rafael.henrique\.katalon\tools\android_sdk\platform-tools\adb.exe
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: 0422530563
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Using adb.exe from C:\Users\rafael.henrique\.katalon\tools\android_sdk\platform-tools\adb.exe
+[35m[BaseDriver][39m Using local app 'C:\Users\rafael.henrique\Katalon Studio\MONVAT\APK\MONVIT_v1.7.24.apk'
+[35m[AndroidDriver][39m Starting Android session
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from C:\Users\rafael.henrique\.katalon\tools\android_sdk\build-tools\28.0.0\aapt.exe
+[35m[AndroidDriver][39m setDeviceLanguageCountry requires language or country.
+[35m[AndroidDriver][39m Got language: 'null' and country: 'null'
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from C:\Users\rafael.henrique\.katalon\tools\android_sdk\build-tools\28.0.0\aapt.exe
+[35m[ADB][39m Getting device platform version
+[35m[ADB][39m Using the alternative activity name detection method because of: Could not find apkanalyzer.bat in C:\Users\rafael.henrique\.katalon\tools\android_sdk\platform-tools\apkanalyzer.bat,C:\Users\rafael.henrique\.katalon\tools\android_sdk\emulator\apkanalyzer.bat,C:\Users\rafael.henrique\.katalon\tools\android_sdk\tools\apkanalyzer.bat,C:\Users\rafael.henrique\.katalon\tools\android_sdk\tools\bin\apkanalyzer.bat,C:\Users\rafael.henrique\.katalon\tools\android_sdk\build-tools\28.0.0\apkanalyzer.bat. Do you have the Android SDK installed at 'C:\Users\rafael.henrique\.katalon\tools\android_sdk'?
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from C:\Users\rafael.henrique\.katalon\tools\android_sdk\build-tools\28.0.0\aapt.exe
+[35m[ADB][39m Extracting package and launch activity from manifest
+[35m[ADB][39m Package name: 'br.com.mv.monitoringvitals'
+[35m[ADB][39m Main activity name: 'br.com.mv.monitoringvitals.views.SplashActivity'
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from C:\Users\rafael.henrique\.katalon\tools\android_sdk\build-tools\28.0.0\aapt.exe
+[35m[ADB][39m Cannot upgrade 'br.com.mv.monitoringvitals' because of '[  0%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [  1%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [  1%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [  2%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [  3%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [  3%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [  4%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [  5%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [  5%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [  6%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [  7%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [  7%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [  8%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [  9%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [  9%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 10%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 11%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 11%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 12%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 12%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 13%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 14%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 14%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 15%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 16%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 16%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 17%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 18%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 18%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 19%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 20%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 20%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 21%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 22%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 22%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 23%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 23%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 24%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 25%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 25%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 26%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 27%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 27%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 28%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 29%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 29%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 30%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 31%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 31%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 32%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 33%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 33%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 34%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 35%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 35%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 36%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 36%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 37%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 38%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 38%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 39%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 40%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 40%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 41%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 42%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 42%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 43%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 44%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 44%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 45%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 46%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 46%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 47%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 47%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 48%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 49%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 49%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 50%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 51%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 51%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 52%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 53%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 53%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 54%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 55%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 55%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 56%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 57%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 57%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 58%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 58%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 59%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 60%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 60%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 61%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 62%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 62%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 63%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 64%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 64%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 65%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 66%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 66%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 67%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 68%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 68%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 69%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 70%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 70%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 71%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 71%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 72%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 73%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 73%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 74%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 75%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 75%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 76%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 77%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 77%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 78%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 79%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 79%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 80%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 81%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 81%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 82%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 82%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 83%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 84%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 84%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 85%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 86%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 86%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 87%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 88%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 88%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 89%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 90%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 90%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 91%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 92%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 92%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 93%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 93%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 94%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 95%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 95%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 96%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 97%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 97%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 98%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 99%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [ 99%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m [100%] /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m C:\Users\rafael.henrique\Katalon Studio\MONVAT\APK\MONVIT_v1.7.24.apk: 1 file pushed. 3.3 MB/s (10108549 bytes in 2.956s)
+[35m[ADB][39m 	pkg: /data/local/tmp/MONVIT_v1.7.24.apk
+[35m[ADB][39m Failure [INSTALL_FAILED_UPDATE_INCOMPATIBLE]'. Trying full reinstall
+[35m[ADB][39m br.com.mv.monitoringvitals was successfully uninstalled
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from C:\Users\rafael.henrique\.katalon\tools\android_sdk\build-tools\28.0.0\aapt.exe
+[35m[ADB][39m Successfully extracted 361 strings from 'C:\Users\rafael.henrique\Katalon Studio\MONVAT\APK\MONVIT_v1.7.24.apk' resources for '(default)' configuration
+[35m[ADB][39m No uiautomator process found to kill, continuing...
+[35m[AndroidBootstrap][39m Android bootstrap socket is now connected
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[Appium][39m New AndroidDriver session created successfully, session e5130d5c-1917-4f78-80fd-d1deeee5041e added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m52358 ms - 1158[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m3 ms - 55[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/timeouts[39m
+[35m[HTTP][39m [90m{"type":"implicit","ms":60000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/timeouts [39m[33m400[39m [90m8 ms - 5628[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source [39m[32m200[39m [90m212 ms - 4482[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot [39m[32m200[39m [90m1512 ms - 344922[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source [39m[32m200[39m [90m80 ms - 10747[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot [39m[32m200[39m [90m991 ms - 218962[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source [39m[32m200[39m [90m76 ms - 12149[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot [39m[32m200[39m [90m940 ms - 195870[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source [39m[32m200[39m [90m120 ms - 15815[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot [39m[32m200[39m [90m906 ms - 222362[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source [39m[32m200[39m [90m113 ms - 18105[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot [39m[32m200[39m [90m818 ms - 244842[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source [39m[32m200[39m [90m116 ms - 18956[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot [39m[32m200[39m [90m881 ms - 256430[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source [39m[32m200[39m [90m92 ms - 12171[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot [39m[32m200[39m [90m930 ms - 212070[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source [39m[32m200[39m [90m90 ms - 12156[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot [39m[32m200[39m [90m922 ms - 207330[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source [39m[32m200[39m [90m98 ms - 15804[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot [39m[32m200[39m [90m789 ms - 216262[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source [39m[32m200[39m [90m120 ms - 12153[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot [39m[32m200[39m [90m988 ms - 195226[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source [39m[32m200[39m [90m97 ms - 11685[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot [39m[32m200[39m [90m900 ms - 189642[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source [39m[32m200[39m [90m102 ms - 15800[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot [39m[32m200[39m [90m925 ms - 211418[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source [39m[32m200[39m [90m108 ms - 19003[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot [39m[32m200[39m [90m963 ms - 229046[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source [39m[32m200[39m [90m136 ms - 19459[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot [39m[32m200[39m [90m1001 ms - 252138[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source [39m[32m200[39m [90m121 ms - 15800[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot [39m[32m200[39m [90m960 ms - 210810[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source [39m[32m200[39m [90m140 ms - 19003[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot [39m[32m200[39m [90m901 ms - 227166[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source [39m[32m200[39m [90m114 ms - 11223[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot [39m[32m200[39m [90m1042 ms - 221478[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source [39m[32m200[39m [90m114 ms - 16666[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot [39m[32m200[39m [90m903 ms - 220410[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source [39m[32m200[39m [90m123 ms - 12171[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot [39m[32m200[39m [90m939 ms - 211626[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source [39m[32m200[39m [90m102 ms - 15817[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot [39m[32m200[39m [90m942 ms - 228706[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/source [39m[32m200[39m [90m128 ms - 16649[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e/screenshot [39m[32m200[39m [90m892 ms - 227062[39m
+[35m[HTTP][39m [90m[39m
+[35m[Appium][39m Closing session, cause was 'UiAUtomator shut down unexpectedly'
+[35m[Appium][39m Removing session e5130d5c-1917-4f78-80fd-d1deeee5041e from our master session list
+[35m[AndroidBootstrap][39m Cannot shut down Android bootstrap; it has already shut down
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/e5130d5c-1917-4f78-80fd-d1deeee5041e [39m[33m404[39m [90m30 ms - 16390[39m
+[35m[HTTP][39m [90m[39m

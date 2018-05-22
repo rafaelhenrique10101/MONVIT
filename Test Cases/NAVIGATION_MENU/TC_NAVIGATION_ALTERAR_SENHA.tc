@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase que navega para o menu de Alterar senha a partir de qualquer tela</description>
+   <name>TC_NAVIGATION_ALTERAR_SENHA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fbbd2e62-9521-4884-a11e-25bfb95e9995</testCaseGuid>
+</TestCaseEntity>

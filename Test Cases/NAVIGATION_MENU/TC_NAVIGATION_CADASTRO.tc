@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase que navega até a tela de Cadastro de um novo usuário a partir de qualquer tela</description>
+   <name>TC_NAVIGATION_CADASTRO</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8405e3d7-189f-4407-a29d-c626fa866bb9</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_TC_MONVIT_CADC_001,,,2018-05-21 16:05:01,2018-05-21 16:05:36,"35,167s",ERROR
+,,,,,,
+Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001,,TC_MONVIT_CADC_001 - Validar obrigatoriedade dos campos abaixo no formul\u00E1rio de cria\u00E7\u00E3o de conta N\u00C3O preenchendo e clicando em salvar\n\nNome completo\nCPF\nData de nascimento\nTelefone celular\nEmail\nConfirme seu email\nSenha\nConfirme sua senha\nTermos de uso,2018-05-21 16:05:01,2018-05-21 16:05:36,"34,791s",ERROR
+callTestCase,,,2018-05-21 16:05:01,2018-05-21 16:05:22,"20,355s",PASSED
+callTestCase,,,2018-05-21 16:05:22,2018-05-21 16:05:36,"14,201s",FAILED

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_TC_MONVIT_CADC_001" time="48" tests="1" failures="0" errors="0">
+   <testsuite name="TS_TC_MONVIT_CADC_001" tests="1" failures="0" errors="0" time="48" timestamp="2018-05-21 15:00:23" hostname="rafael.henrique - MVBRRECDSK2925.mvrec.local" id="Test Suites/TS_TC_MONVIT_CADC_001">
+      <properties>
+         <property name="deviceName" value="samsung SM-T825 (Android 7.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180521_150022"/>
+         <property name="logFiles" value="C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180521_150022\\appium.log, C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180521_150022\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rafael.henrique - MVBRRECDSK2925.mvrec.local"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.0"/>
+         <property name="deviceModel" value="SM-T825"/>
+         <property name="hostAddress" value="192.168.7.231"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="172f64f0"/>
+         <property name="deviceName" value="samsung SM-T825 (Android 7.0)"/>
+         <property name="deviceOSVersion" value="7.0"/>
+      </properties>
+      <testcase name="Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001" classname="Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001" status="PASSED">
+         <system-out><![CDATA[2018-05-21 15:00:23 - [TEST_CASE][PASSED] - Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001: Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001
+
+2018-05-21 15:00:24 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/START_APPLICATION/TC_START_APPLICATION' successfully
+
+2018-05-21 15:00:24 - [TEST_CASE][PASSED] - Test Cases/START_APPLICATION/TC_START_APPLICATION: Test Cases/START_APPLICATION/TC_START_APPLICATION
+
+2018-05-21 15:00:24 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\rafael.henrique\Katalon Studio\MONVAT\APK\MONVIT_v1.7.22.apk'
+
+2018-05-21 15:01:01 - [MESSAGE][PASSED] - Started app at: 'C:\Users\rafael.henrique\Katalon Studio\MONVAT\APK\MONVIT_v1.7.22.apk'
+
+2018-05-21 15:01:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/START_APPLICATION/TC_START_APPLICATION' successfully
+
+2018-05-21 15:01:01 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/NAVIGATION_MENU/TC_NAVIGATION_CADASTRO' successfully
+
+2018-05-21 15:01:01 - [TEST_CASE][PASSED] - Test Cases/NAVIGATION_MENU/TC_NAVIGATION_CADASTRO: Test Cases/NAVIGATION_MENU/TC_NAVIGATION_CADASTRO
+
+2018-05-21 15:01:01 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-21 15:01:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-21 15:01:06 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-05-21 15:01:06 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-05-21 15:01:06 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-21 15:01:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-21 15:01:08 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/OBJ_LOGIN_SCREEN/android.widget.Button1 - No tenho uma conta. Quero me cadastrar.'
+
+2018-05-21 15:01:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OBJ_LOGIN_SCREEN/android.widget.Button1 - No tenho uma conta. Quero me cadastrar.'
+
+2018-05-21 15:01:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/NAVIGATION_MENU/TC_NAVIGATION_CADASTRO' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-21 15:00:23 - [TEST_SUITE][PASSED] - TS_TC_MONVIT_CADC_001: Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuit_TC_MONVIT_CADC_001,,,2018-05-16 14:11:51,2018-05-16 14:12:45,"53,762s",FAILED
+,,,,,,
+Test Cases/START_APPLICATION/TC_START_APPLICATION,,TestCase which start application Monitoring Vitals,2018-05-16 14:11:51,2018-05-16 14:12:31,"39,704s",PASSED
+startApplication,,,2018-05-16 14:11:52,2018-05-16 14:12:31,"39,510s",PASSED
+,,,,,,
+Test Cases/REGISTER/TC_REGISTER,,TestCase to register a new user in Monitoring Vitals,2018-05-16 14:12:31,2018-05-16 14:12:43,"12,320s",FAILED
+"Statement - titleViewRegister = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Object Repository/OBJ_SCREEN_REGISTER/android.widget.TextView0 - Crie sua conta), 10)",,,2018-05-16 14:12:31,2018-05-16 14:12:43,"12,229s",FAILED

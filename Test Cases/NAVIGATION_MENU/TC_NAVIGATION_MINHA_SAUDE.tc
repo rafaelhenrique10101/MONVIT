@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase que realiza a navegação para o menu de Minha saúde a partir de qualquer tela</description>
+   <name>TC_NAVIGATION_MINHA_SAUDE</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e09ad001-719a-413c-aa83-4e46c2a15c56</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_TC_MONVIT_CADC_001" time="40" tests="0" failures="1" errors="0">
+   <testsuite name="TS_TC_MONVIT_CADC_001" tests="0" failures="1" errors="0" time="40" timestamp="2018-05-21 17:35:14" hostname="rafael.henrique - MVBRRECDSK2925.mvrec.local" id="Test Suites/TS_TC_MONVIT_CADC_001">
+      <properties>
+         <property name="deviceName" value="motorola XT1058 (Android 5.1)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180521_173513"/>
+         <property name="logFiles" value="C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180521_173513\\appium.log, C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180521_173513\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180521_173513\\1526934943963.png, C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180521_173513\\1526934948089.png"/>
+         <property name="hostName" value="rafael.henrique - MVBRRECDSK2925.mvrec.local"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.0"/>
+         <property name="deviceModel" value="XT1058"/>
+         <property name="hostAddress" value="192.168.7.231"/>
+         <property name="deviceManufacturer" value="motorola"/>
+         <property name="deviceId" value="0422530563"/>
+         <property name="deviceName" value="motorola XT1058 (Android 5.1)"/>
+         <property name="deviceOSVersion" value="5.1"/>
+      </properties>
+      <testcase name="Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001" classname="Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/OBJ_LOGIN_SCREEN/android.widget.Button1 - No tenho uma conta. Quero me cadastrar.' (Root cause: Object Object Repository/OBJ_LOGIN_SCREEN/android.widget.Button1 - No tenho uma conta. Quero me cadastrar. not found)"/>
+         <system-out><![CDATA[2018-05-21 17:35:14 - [TEST_CASE][FAILED] - Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001: Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001 FAILED because (of) Failed to tap on element 'Object Repository/OBJ_LOGIN_SCREEN/android.widget.Button1 - No tenho uma conta. Quero me cadastrar.' (Root cause: Object Object Repository/OBJ_LOGIN_SCREEN/android.widget.Button1 - No tenho uma conta. Quero me cadastrar. not found)
+
+2018-05-21 17:35:15 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/START_APPLICATION/TC_START_APPLICATION' successfully
+
+2018-05-21 17:35:15 - [TEST_CASE][PASSED] - Test Cases/START_APPLICATION/TC_START_APPLICATION: Test Cases/START_APPLICATION/TC_START_APPLICATION
+
+2018-05-21 17:35:15 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\rafael.henrique\Katalon Studio\MONVAT\APK\MONVIT_v1.7.24.apk'
+
+2018-05-21 17:35:31 - [MESSAGE][PASSED] - Started app at: 'C:\Users\rafael.henrique\Katalon Studio\MONVAT\APK\MONVIT_v1.7.24.apk'
+
+2018-05-21 17:35:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/START_APPLICATION/TC_START_APPLICATION' successfully
+
+2018-05-21 17:35:31 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/NAVIGATION_MENU/TC_NAVIGATION_CADASTRO' (Root cause: Call Test Case 'Test Cases/NAVIGATION_MENU/TC_NAVIGATION_CADASTRO' failed)
+
+2018-05-21 17:35:31 - [TEST_CASE][FAILED] - Test Cases/NAVIGATION_MENU/TC_NAVIGATION_CADASTRO: Test Cases/NAVIGATION_MENU/TC_NAVIGATION_CADASTRO FAILED because (of) Failed to tap on element 'Object Repository/OBJ_LOGIN_SCREEN/android.widget.Button1 - No tenho uma conta. Quero me cadastrar.' (Root cause: Object Object Repository/OBJ_LOGIN_SCREEN/android.widget.Button1 - No tenho uma conta. Quero me cadastrar. not found)
+
+2018-05-21 17:35:31 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-21 17:35:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-21 17:35:36 - [TEST_STEP][PASSED] - pressBack: Press back button successfully
+
+2018-05-21 17:35:36 - [MESSAGE][PASSED] - Press back button successfully
+
+2018-05-21 17:35:36 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-21 17:35:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-21 17:35:38 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/OBJ_LOGIN_SCREEN/android.widget.Button1 - No tenho uma conta. Quero me cadastrar.' (Root cause: Object Object Repository/OBJ_LOGIN_SCREEN/android.widget.Button1 - No tenho uma conta. Quero me cadastrar. not found)
+
+2018-05-21 17:35:48 - [MESSAGE][FAILED] - Object Object Repository/OBJ_LOGIN_SCREEN/android.widget.Button1 - No tenho uma conta. Quero me cadastrar. not found
+[[ATTACHMENT|C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180521_173513\\1526934943963.png]]
+
+2018-05-21 17:35:52 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/OBJ_LOGIN_SCREEN/android.widget.Button1 - No tenho uma conta. Quero me cadastrar.' (Root cause: Object Object Repository/OBJ_LOGIN_SCREEN/android.widget.Button1 - No tenho uma conta. Quero me cadastrar. not found)
+[[ATTACHMENT|C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180521_173513\\1526934948089.png]]
+
+2018-05-21 17:35:52 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/NAVIGATION_MENU/TC_NAVIGATION_CADASTRO' (Root cause: Call Test Case 'Test Cases/NAVIGATION_MENU/TC_NAVIGATION_CADASTRO' failed)]]></system-out>
+         <system-err><![CDATA[2018-05-21 17:35:14 - [TEST_CASE][FAILED] - Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001: Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001 FAILED because (of) Failed to tap on element 'Object Repository/OBJ_LOGIN_SCREEN/android.widget.Button1 - No tenho uma conta. Quero me cadastrar.' (Root cause: Object Object Repository/OBJ_LOGIN_SCREEN/android.widget.Button1 - No tenho uma conta. Quero me cadastrar. not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-21 17:35:14 - [TEST_SUITE][FAILED] - TS_TC_MONVIT_CADC_001: Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001 FAILED because (of) Failed to tap on element 'Object Repository/OBJ_LOGIN_SCREEN/android.widget.Button1 - No tenho uma conta. Quero me cadastrar.' (Root cause: Object Object Repository/OBJ_LOGIN_SCREEN/android.widget.Button1 - No tenho uma conta. Quero me cadastrar. not found)]]></system-out>
+      <system-err><![CDATA[2018-05-21 17:35:14 - [TEST_SUITE][FAILED] - TS_TC_MONVIT_CADC_001: Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001 FAILED because (of) Failed to tap on element 'Object Repository/OBJ_LOGIN_SCREEN/android.widget.Button1 - No tenho uma conta. Quero me cadastrar.' (Root cause: Object Object Repository/OBJ_LOGIN_SCREEN/android.widget.Button1 - No tenho uma conta. Quero me cadastrar. not found)]]></system-err>
+   </testsuite>
+</testsuites>

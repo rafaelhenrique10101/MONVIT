@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuit_TC_MONVIT_CADC_001,,,2018-05-16 10:07:54,2018-05-16 10:08:25,"30,840s",PASSED
+,,,,,,
+Test Cases/START_APPLICATION/TC_START_APPLICATION,,TestCase which start application Monitoring Vitals,2018-05-16 10:07:54,2018-05-16 10:08:07,"12,483s",PASSED
+startApplication,,,2018-05-16 10:07:55,2018-05-16 10:08:07,"12,263s",PASSED
+,,,,,,
+Test Cases/REGISTER/TC_REGISTER,,TestCase to register a new user in Monitoring Vitals,2018-05-16 10:08:07,2018-05-16 10:08:22,"15,395s",PASSED
+tap,,,2018-05-16 10:08:07,2018-05-16 10:08:12,"5,276s",PASSED
+delay,,,2018-05-16 10:08:12,2018-05-16 10:08:22,"10,025s",PASSED
