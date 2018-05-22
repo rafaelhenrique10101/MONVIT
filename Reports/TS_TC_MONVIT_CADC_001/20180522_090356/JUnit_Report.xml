@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_TC_MONVIT_CADC_001" time="32" tests="0" failures="1" errors="0">
+   <testsuite name="TS_TC_MONVIT_CADC_001" tests="0" failures="1" errors="0" time="32" timestamp="2018-05-22 09:03:57" hostname="rafael.henrique - MVBRRECDSK2925.mvrec.local" id="Test Suites/TS_TC_MONVIT_CADC_001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180522_090356"/>
+         <property name="logFiles" value="C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180522_090356\\appium.log, C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180522_090356\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rafael.henrique - MVBRRECDSK2925.mvrec.local"/>
+         <property name="hostAddress" value="192.168.7.231"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+      </properties>
+      <testcase name="Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001" classname="Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: 'APK/MONVIT_v1.7.24.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)"/>
+         <system-out><![CDATA[2018-05-22 09:03:57 - [TEST_CASE][FAILED] - Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001: Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001 FAILED because (of) Unable to start app at: 'APK/MONVIT_v1.7.24.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)
+
+2018-05-22 09:03:58 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/START_APPLICATION/TC_START_APPLICATION' (Root cause: Call Test Case 'Test Cases/START_APPLICATION/TC_START_APPLICATION' failed)
+
+2018-05-22 09:03:58 - [TEST_CASE][FAILED] - Test Cases/START_APPLICATION/TC_START_APPLICATION: Test Cases/START_APPLICATION/TC_START_APPLICATION FAILED because (of) Unable to start app at: 'APK/MONVIT_v1.7.24.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)
+
+2018-05-22 09:03:58 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: 'APK/MONVIT_v1.7.24.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)
+
+2018-05-22 09:04:29 - [MESSAGE][FAILED] - Unable to start app at: 'APK/MONVIT_v1.7.24.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)
+
+2018-05-22 09:04:29 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/START_APPLICATION/TC_START_APPLICATION' (Root cause: Call Test Case 'Test Cases/START_APPLICATION/TC_START_APPLICATION' failed)]]></system-out>
+         <system-err><![CDATA[2018-05-22 09:03:57 - [TEST_CASE][FAILED] - Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001: Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001 FAILED because (of) Unable to start app at: 'APK/MONVIT_v1.7.24.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-22 09:03:57 - [TEST_SUITE][FAILED] - TS_TC_MONVIT_CADC_001: Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001 FAILED because (of) Unable to start app at: 'APK/MONVIT_v1.7.24.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)]]></system-out>
+      <system-err><![CDATA[2018-05-22 09:03:57 - [TEST_SUITE][FAILED] - TS_TC_MONVIT_CADC_001: Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001 FAILED because (of) Unable to start app at: 'APK/MONVIT_v1.7.24.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 30 seconds)]]></system-err>
+   </testsuite>
+</testsuites>

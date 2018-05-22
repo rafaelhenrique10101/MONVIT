@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.pressBack()
+Mobile.hideKeyboard()
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 

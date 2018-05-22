@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_TC_MONVIT_CADC_001,,,2018-05-22 09:12:28,2018-05-22 09:13:21,"53,274s",PASSED
+,,,,,,
+Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001,,TC_MONVIT_CADC_001 - Validar obrigatoriedade dos campos abaixo no formul\u00E1rio de cria\u00E7\u00E3o de conta N\u00C3O preenchendo e clicando em salvar\n\nNome completo\nCPF\nData de nascimento\nTelefone celular\nEmail\nConfirme seu email\nSenha\nConfirme sua senha\nTermos de uso,2018-05-22 09:12:28,2018-05-22 09:13:19,"50,994s",PASSED
+callTestCase,,,2018-05-22 09:12:28,2018-05-22 09:13:03,"34,995s",PASSED
+callTestCase,,,2018-05-22 09:13:03,2018-05-22 09:13:15,"11,788s",PASSED
+"Statement - pathTestCaseName = ""Screenshots/TC_MONVIT_CADC_001""",,,2018-05-22 09:13:15,2018-05-22 09:13:15,"0,001s",PASSED
+Statement - folderTestCaseName = new java.io.File(pathTestCaseName),,,2018-05-22 09:13:15,2018-05-22 09:13:15,"0,002s",PASSED
+"Statement - strMsgCampoObrigatorio = ""Esse campo é obrigatório.""",,,2018-05-22 09:13:15,2018-05-22 09:13:15,"0,002s",PASSED
+"Statement - strMsgNomeCompleto = ""Você precisa informar o seu nome completo""",,,2018-05-22 09:13:15,2018-05-22 09:13:15,"0,002s",PASSED
+"Statement - strInvalidCPF = ""CPF inválido""",,,2018-05-22 09:13:15,2018-05-22 09:13:15,"0,003s",PASSED
+"Statement - strMaxAgeDate = ""A idade máxima é de 150 anos""",,,2018-05-22 09:13:15,2018-05-22 09:13:15,"0,003s",PASSED
+"Statement - strMinAgeDate = ""A idade mínima é de 5 anos""",,,2018-05-22 09:13:15,2018-05-22 09:13:15,"0,003s",PASSED
+"Statement - strInvalidEmail = ""Endereço de email inválido""",,,2018-05-22 09:13:15,2018-05-22 09:13:15,"0,001s",PASSED
+"Statement - strPassSmall = ""Senha muito curta""",,,2018-05-22 09:13:15,2018-05-22 09:13:15,"0,001s",PASSED
+"Statement - strUseTerms = ""Senha muito curta""",,,2018-05-22 09:13:15,2018-05-22 09:13:15,"0,001s",PASSED
+tap,,,2018-05-22 09:13:15,2018-05-22 09:13:16,"1,226s",PASSED
+delay,,,2018-05-22 09:13:16,2018-05-22 09:13:17,"1,001s",PASSED
+Statement - If (!(folderTestCaseName.exists())),,,2018-05-22 09:13:17,2018-05-22 09:13:17,"0,003s",PASSED
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OBJ_SCREEN_REGISTER/MSG_VALIDATIONS/lblValidationNomeCompleto), ""text"", 5) == strMsgCampoObrigatorio)",,,2018-05-22 09:13:17,2018-05-22 09:13:19,"1,760s",PASSED

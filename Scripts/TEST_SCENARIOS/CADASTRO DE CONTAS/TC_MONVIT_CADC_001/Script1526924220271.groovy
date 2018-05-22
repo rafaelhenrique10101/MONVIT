@@ -27,17 +27,20 @@ WebUI.callTestCase(findTestCase('NAVIGATION_MENU/TC_NAVIGATION_CADASTRO'), [:], 
 
 def pathTestCaseName = 'Screenshots/TC_MONVIT_CADC_001'
 def folderTestCaseName = new File(pathTestCaseName)
+def idxImgEvidence = 0
 
 // Mensagens de validação 
 def strMsgCampoObrigatorio = 'Esse campo é obrigatório.'
 def strMsgNomeCompleto = 'Você precisa informar o seu nome completo'
 def strInvalidCPF = 'CPF inválido'
+def strMinCharactersCPF = 'Pelo menos 11 caracteres'
 def strMaxAgeDate = 'A idade máxima é de 150 anos'
 def strMinAgeDate = 'A idade mínima é de 5 anos'
 def strInvalidEmail = 'Endereço de email inválido'
 def strPassSmall = 'Senha muito curta'
 def strUseTerms = 'Senha muito curta'
 
+Mobile.hideKeyboard()
 Mobile.tap(findTestObject('OBJ_SCREEN_REGISTER/android.widget.TextView1 - Button - Salvar'), 5)
 
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
@@ -49,6 +52,38 @@ if( !folderTestCaseName.exists() ) {
 
 // Validando obrigatoriedade do campo Nome Completo
 if (Mobile.getAttribute(findTestObject('OBJ_SCREEN_REGISTER/MSG_VALIDATIONS/lblValidationNomeCompleto'), 'text', 5) == strMsgCampoObrigatorio) {
-	Mobile.takeScreenshot(pathTestCaseName + '/')	
+	Mobile.takeScreenshot(pathTestCaseName + '/' + (idxImgEvidence + 1) + '.png')	
+	idxImgEvidence = idxImgEvidence + 1
 }
 
+// Validando obrigatoriedade do campo CPF
+if (Mobile.getAttribute(findTestObject('OBJ_SCREEN_REGISTER/MSG_VALIDATIONS/lblValidationCPF'), 'text', 5) == strMsgCampoObrigatorio) {
+	Mobile.takeScreenshot(pathTestCaseName + '/' + (idxImgEvidence + 1) + '.png')
+	idxImgEvidence = idxImgEvidence + 1
+}
+
+// Validando obrigatoriedade do campo Data Nascimento
+if (Mobile.getAttribute(findTestObject('OBJ_SCREEN_REGISTER/MSG_VALIDATIONS/lblValidationDataNascimento'), 'text', 5) == strMsgCampoObrigatorio) {
+	Mobile.takeScreenshot(pathTestCaseName + '/' + (idxImgEvidence + 1) + '.png')
+	idxImgEvidence = idxImgEvidence + 1
+}
+
+Mobile.swipe(150, 150, 150, 10)
+
+// Validando obrigatoriedade do campo Celular
+if (Mobile.getAttribute(findTestObject('OBJ_SCREEN_REGISTER/MSG_VALIDATIONS/lblValidationCelular'), 'text', 5) == strMsgCampoObrigatorio) {
+	Mobile.takeScreenshot(pathTestCaseName + '/' + (idxImgEvidence + 1) + '.png')
+	idxImgEvidence = idxImgEvidence + 1
+}
+
+// Validando obrigatoriedade do campo Email
+if (Mobile.getAttribute(findTestObject('OBJ_SCREEN_REGISTER/MSG_VALIDATIONS/lblValidationEmail'), 'text', 5) == strMsgCampoObrigatorio) {
+	Mobile.takeScreenshot(pathTestCaseName + '/' + (idxImgEvidence + 1) + '.png')
+	idxImgEvidence = idxImgEvidence + 1
+}
+
+// Validando obrigatoriedade do campo Confirmar Email
+if (Mobile.getAttribute(findTestObject('OBJ_SCREEN_REGISTER/MSG_VALIDATIONS/lblValidationConfirmarEmail'), 'text', 5) == strMsgCampoObrigatorio) {
+	Mobile.takeScreenshot(pathTestCaseName + '/' + (idxImgEvidence + 1) + '.png')
+	idxImgEvidence = idxImgEvidence + 1
+}
