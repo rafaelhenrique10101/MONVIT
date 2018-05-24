@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_TC_MONVIT_CADC_001,,,2018-05-23 14:32:59,2018-05-23 14:33:02,"2,928s",ERROR
+,,,,,,
+Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001,,TC_MONVIT_CADC_001 - Validar obrigatoriedade dos campos abaixo no formul\u00E1rio de cria\u00E7\u00E3o de conta N\u00C3O preenchendo e clicando em salvar\n\nNome completo\nCPF\nData de nascimento\nTelefone celular\nEmail\nConfirme seu email\nSenha\nConfirme sua senha\nTermos de uso,2018-05-23 14:32:59,2018-05-23 14:33:01,"2,199s",ERROR
+Statement - dataConfig = com.kms.katalon.core.testdata.TestDataFactory.findTestData(CONFIG),,,2018-05-23 14:33:00,2018-05-23 14:33:01,"1,405s",PASSED
+Statement - dataTC = com.kms.katalon.core.testdata.TestDataFactory.findTestData(DP_MONITORING_VITALS),,,2018-05-23 14:33:01,2018-05-23 14:33:01,"0,057s",PASSED
+"Statement - folderScreenshotsTestCase = new java.io.File((dataConfig.getValue(3, 2) + dataTC.getValue(1, 2)))",,,2018-05-23 14:33:01,2018-05-23 14:33:01,"0,044s",PASSED
+Statement - If (!(folderScreenshotsTestCase.exists())),,,2018-05-23 14:33:01,2018-05-23 14:33:01,"0,004s",PASSED
+Statement - idxImgEvidence = 0,,,2018-05-23 14:33:01,2018-05-23 14:33:01,"0,001s",PASSED
+callTestCase,,,2018-05-23 14:33:01,2018-05-23 14:33:01,"0,086s",PASSED

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>DB_CADASTRAR_CONTA</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>45988ade-3ffe-4a84-a574-0e413a9bc02e</dataFileGUID>
+   <dataSourceUrl>jdbc:mysql://globalhealthmon.cmaem6vddfae.us-west-2.rds.amazonaws.com</dataSourceUrl>
+   <driver>DBData</driver>
+   <isInternalPath>false</isInternalPath>
+   <password>Z2xvYmFsaGVhbHRobW9u</password>
+   <query>SELECT u.id,
+u.first_name,
+u.cpf,
+u.birth_date,
+u.gender,
+u.phone_mobile,
+u.email
+FROM globalhealth_mon.user u
+WHERE 1=1
+AND u.email LIKE '%admin@admin%'</query>
+   <secureUserAccount>true</secureUserAccount>
+   <sheetName></sheetName>
+   <user>globalhealthmon</user>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

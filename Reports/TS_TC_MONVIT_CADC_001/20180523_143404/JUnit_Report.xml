@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_TC_MONVIT_CADC_001" time="2" tests="0" failures="0" errors="1">
+   <testsuite name="TS_TC_MONVIT_CADC_001" tests="0" failures="0" errors="1" time="2" timestamp="2018-05-23 14:34:06" hostname="rafael.henrique - MVBRRECDSK2925.mvrec.local" id="Test Suites/TS_TC_MONVIT_CADC_001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180523_143404"/>
+         <property name="logFiles" value="C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180523_143404\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rafael.henrique - MVBRRECDSK2925.mvrec.local"/>
+         <property name="hostAddress" value="192.168.7.231"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+      </properties>
+      <testcase name="Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001" classname="Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001" status="ERROR">
+         <error type="ERROR" message="Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase() is applicable for argument types: (com.kms.katalon.core.testcase.TestCase, java.util.ArrayList, com.kms.katalon.core.model.FailureHandling) values: [com.kms.katalon.core.testcase.TestCase@1a3e5f23, [APK/MONVIT_v1.7.24.apk], ...]
+Possible solutions: callTestCase(com.kms.katalon.core.testcase.TestCase, java.util.Map, com.kms.katalon.core.model.FailureHandling), callTestCase(com.kms.katalon.core.testcase.TestCase, java.util.Map)"/>
+         <system-out><![CDATA[2018-05-23 14:34:06 - [TEST_CASE][ERROR] - Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001: Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase() is applicable for argument types: (com.kms.katalon.core.testcase.TestCase, java.util.ArrayList, com.kms.katalon.core.model.FailureHandling) values: [com.kms.katalon.core.testcase.TestCase@1a3e5f23, [APK/MONVIT_v1.7.24.apk], ...]
+Possible solutions: callTestCase(com.kms.katalon.core.testcase.TestCase, java.util.Map, com.kms.katalon.core.model.FailureHandling), callTestCase(com.kms.katalon.core.testcase.TestCase, java.util.Map)
+
+2018-05-23 14:34:07 - [TEST_STEP][PASSED] - Statement - dataConfig = com.kms.katalon.core.testdata.TestDataFactory.findTestData(CONFIG): Reading excel file with source file 'C:\Users\rafael.henrique\Desktop\AutoExec_GH - [Template].xlsx' and sheet name 'Config'
+
+2018-05-23 14:34:08 - [TEST_STEP][PASSED] - Statement - dataTC = com.kms.katalon.core.testdata.TestDataFactory.findTestData(DP_MONITORING_VITALS): Reading excel file with source file 'C:\Users\rafael.henrique\Katalon Studio\MONVAT\Data Files\AutoExec_GH - [Template].xlsx' and sheet name 'Scripts'
+
+2018-05-23 14:34:08 - [TEST_STEP][PASSED] - Statement - folderScreenshotsTestCase = new java.io.File((dataConfig.getValue(3, 2) + dataTC.getValue(1, 2))): null
+
+2018-05-23 14:34:08 - [TEST_STEP][PASSED] - Statement - If (!(folderScreenshotsTestCase.exists())): null
+
+2018-05-23 14:34:08 - [TEST_STEP][PASSED] - Statement - idxImgEvidence = 0: null
+
+2018-05-23 14:34:08 - [TEST_STEP][PASSED] - callTestCase: null]]></system-out>
+         <system-err><![CDATA[2018-05-23 14:34:06 - [TEST_CASE][ERROR] - Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001: Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase() is applicable for argument types: (com.kms.katalon.core.testcase.TestCase, java.util.ArrayList, com.kms.katalon.core.model.FailureHandling) values: [com.kms.katalon.core.testcase.TestCase@1a3e5f23, [APK/MONVIT_v1.7.24.apk], ...]
+Possible solutions: callTestCase(com.kms.katalon.core.testcase.TestCase, java.util.Map, com.kms.katalon.core.model.FailureHandling), callTestCase(com.kms.katalon.core.testcase.TestCase, java.util.Map)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-23 14:34:06 - [TEST_SUITE][ERROR] - TS_TC_MONVIT_CADC_001: Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase() is applicable for argument types: (com.kms.katalon.core.testcase.TestCase, java.util.ArrayList, com.kms.katalon.core.model.FailureHandling) values: [com.kms.katalon.core.testcase.TestCase@1a3e5f23, [APK/MONVIT_v1.7.24.apk], ...]
+Possible solutions: callTestCase(com.kms.katalon.core.testcase.TestCase, java.util.Map, com.kms.katalon.core.model.FailureHandling), callTestCase(com.kms.katalon.core.testcase.TestCase, java.util.Map)]]></system-out>
+      <system-err><![CDATA[2018-05-23 14:34:06 - [TEST_SUITE][ERROR] - TS_TC_MONVIT_CADC_001: Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001 FAILED because (of) groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.callTestCase() is applicable for argument types: (com.kms.katalon.core.testcase.TestCase, java.util.ArrayList, com.kms.katalon.core.model.FailureHandling) values: [com.kms.katalon.core.testcase.TestCase@1a3e5f23, [APK/MONVIT_v1.7.24.apk], ...]
+Possible solutions: callTestCase(com.kms.katalon.core.testcase.TestCase, java.util.Map, com.kms.katalon.core.model.FailureHandling), callTestCase(com.kms.katalon.core.testcase.TestCase, java.util.Map)]]></system-err>
+   </testsuite>
+</testsuites>

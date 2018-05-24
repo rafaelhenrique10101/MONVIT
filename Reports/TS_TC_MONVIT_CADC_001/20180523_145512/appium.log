@@ -1,0 +1,7 @@
+[35m[Appium][39m Welcome to Appium v1.8.0
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 50621
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   chromeDriverPort: 50623
+[35m[Appium][39m   tmpDir: C:\Users\RAFAEL~1.HEN\AppData\Local\Temp\\Katalon\Appium\Temp1527098157815
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:50621

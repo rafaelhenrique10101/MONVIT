@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-05-23T14:34:29</date>
+  <millis>1527096869087</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/TS_TC_MONVIT_CADC_001</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">TS_TC_MONVIT_CADC_001</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/TS_TC_MONVIT_CADC_001</property>
+</record>
+<record>
+  <date>2018-05-23T14:34:29</date>
+  <millis>1527096869103</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;rafael.henrique - MVBRRECDSK2925.mvrec.local&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">rafael.henrique - MVBRRECDSK2925.mvrec.local</property>
+</record>
+<record>
+  <date>2018-05-23T14:34:29</date>
+  <millis>1527096869104</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Windows 7 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 7 64bit</property>
+</record>
+<record>
+  <date>2018-05-23T14:34:29</date>
+  <millis>1527096869104</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;192.168.7.231&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.7.231</property>
+</record>
+<record>
+  <date>2018-05-23T14:34:29</date>
+  <millis>1527096869105</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.4.1.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.4.1.1</property>
+</record>
+<record>
+  <date>2018-05-23T14:34:29</date>
+  <millis>1527096869393</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001</property>
+  <property name="description">TC_MONVIT_CADC_001 - Validar obrigatoriedade dos campos abaixo no formul\u00E1rio de cria\u00E7\u00E3o de conta N\u00C3O preenchendo e clicando em salvar\n\nNome completo\nCPF\nData de nascimento\nTelefone celular\nEmail\nConfirme seu email\nSenha\nConfirme sua senha\nTermos de uso</property>
+  <property name="id">Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001</property>
+  <property name="source">C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Test Cases\\TEST_SCENARIOS\\CADASTRO DE CONTAS\\TC_MONVIT_CADC_001.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-05-23T14:34:29</date>
+  <millis>1527096869428</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-23T14:34:29</date>
+  <millis>1527096869846</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - dataConfig = com.kms.katalon.core.testdata.TestDataFactory.findTestData(CONFIG)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-05-23T14:34:36</date>
+  <millis>1527096876959</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking test data id</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-23T14:34:36</date>
+  <millis>1527096876961</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/CONFIG&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-23T14:34:36</date>
+  <millis>1527096876971</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-23T14:34:36</date>
+  <millis>1527096876972</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\rafael.henrique\\Desktop\\AutoExec_GH - [Template].xlsx&amp;apos; and sheet name &amp;apos;Config&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-23T14:34:42</date>
+  <millis>1527096882053</millis>
+  <sequence>12</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - dataConfig = com.kms.katalon.core.testdata.TestDataFactory.findTestData(CONFIG)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-23T14:34:42</date>
+  <millis>1527096882056</millis>
+  <sequence>13</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - dataTC = com.kms.katalon.core.testdata.TestDataFactory.findTestData(DP_MONITORING_VITALS)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-05-23T14:34:46</date>
+  <millis>1527096886239</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking test data id</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-23T14:34:46</date>
+  <millis>1527096886246</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/DP_MONITORING_VITALS&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-23T14:34:46</date>
+  <millis>1527096886284</millis>
+  <sequence>16</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-23T14:34:46</date>
+  <millis>1527096886288</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Data Files\\AutoExec_GH - [Template].xlsx&amp;apos; and sheet name &amp;apos;Scripts&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-23T14:34:47</date>
+  <millis>1527096887304</millis>
+  <sequence>18</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - dataTC = com.kms.katalon.core.testdata.TestDataFactory.findTestData(DP_MONITORING_VITALS)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-23T14:34:47</date>
+  <millis>1527096887307</millis>
+  <sequence>19</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - folderScreenshotsTestCase = new java.io.File((dataConfig.getValue(3, 2) + dataTC.getValue(1, 2)))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2018-05-23T14:35:18</date>
+  <millis>1527096918393</millis>
+  <sequence>20</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - folderScreenshotsTestCase = new java.io.File((dataConfig.getValue(3, 2) + dataTC.getValue(1, 2)))</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-05-23T14:35:18</date>
+  <millis>1527096918396</millis>
+  <sequence>21</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - If (!(folderScreenshotsTestCase.exists()))</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">4</property>
+</record>

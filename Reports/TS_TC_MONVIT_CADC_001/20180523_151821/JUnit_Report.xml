@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_TC_MONVIT_CADC_001" time="7" tests="0" failures="0" errors="1">
+   <testsuite name="TS_TC_MONVIT_CADC_001" tests="0" failures="0" errors="1" time="7" timestamp="2018-05-23 15:18:23" hostname="rafael.henrique - MVBRRECDSK2925.mvrec.local" id="Test Suites/TS_TC_MONVIT_CADC_001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180523_151821"/>
+         <property name="logFiles" value="C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180523_151821\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rafael.henrique - MVBRRECDSK2925.mvrec.local"/>
+         <property name="hostAddress" value="192.168.7.231"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="appiumVersion" value="1.8.0"/>
+      </properties>
+      <testcase name="Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001" classname="Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001" status="ERROR">
+         <error type="ERROR" message="Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001 FAILED because (of) org.openqa.selenium.WebDriverException: No command or response codec has been defined. Unable to proceed
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MVBRRECDSK2925', ip: '192.168.7.231', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: AppiumDriver"/>
+         <system-out><![CDATA[2018-05-23 15:18:23 - [TEST_CASE][ERROR] - Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001: Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001 FAILED because (of) org.openqa.selenium.WebDriverException: No command or response codec has been defined. Unable to proceed
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MVBRRECDSK2925', ip: '192.168.7.231', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: AppiumDriver
+
+2018-05-23 15:18:23 - [TEST_STEP][PASSED] - Statement - dataConfig = com.kms.katalon.core.testdata.TestDataFactory.findTestData(CONFIG): Reading excel file with source file 'C:\Users\rafael.henrique\Desktop\AutoExec_GH - [Template].xlsx' and sheet name 'Config'
+
+2018-05-23 15:18:24 - [TEST_STEP][PASSED] - Statement - dataTC = com.kms.katalon.core.testdata.TestDataFactory.findTestData(DP_MONITORING_VITALS): Reading excel file with source file 'C:\Users\rafael.henrique\Katalon Studio\MONVAT\Data Files\AutoExec_GH - [Template].xlsx' and sheet name 'Scripts'
+
+2018-05-23 15:18:24 - [TEST_STEP][PASSED] - Statement - folderScreenshotsTestCase = new java.io.File(dataConfig.getValue(3, 3)): null
+
+2018-05-23 15:18:24 - [TEST_STEP][PASSED] - Statement - pathAPK = dataConfig.getValue(2, 2): null
+
+2018-05-23 15:18:24 - [TEST_STEP][PASSED] - Statement - idxImgEvidence = 0: null
+
+2018-05-23 15:18:24 - [TEST_STEP][PASSED] - Statement - If (!(folderScreenshotsTestCase.exists())): null
+
+2018-05-23 15:18:24 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/START_APPLICATION/TC_START_APPLICATION' successfully
+
+2018-05-23 15:18:24 - [TEST_CASE][PASSED] - Test Cases/START_APPLICATION/TC_START_APPLICATION: Test Cases/START_APPLICATION/TC_START_APPLICATION
+
+2018-05-23 15:18:24 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\rafael.henrique\Katalon Studio\MONVAT\APK\MONVIT_v1.7.24.apk'
+
+2018-05-23 15:18:25 - [MESSAGE][PASSED] - Started app at: 'C:\Users\rafael.henrique\Katalon Studio\MONVAT\APK\MONVIT_v1.7.24.apk'
+
+2018-05-23 15:18:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/START_APPLICATION/TC_START_APPLICATION' successfully
+
+2018-05-23 15:18:25 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/NAVIGATION_MENU/TC_NAVIGATION_CADASTRO' (Root cause: Call Test Case 'Test Cases/NAVIGATION_MENU/TC_NAVIGATION_CADASTRO' failed because of error(s))
+
+2018-05-23 15:18:25 - [TEST_CASE][ERROR] - Test Cases/NAVIGATION_MENU/TC_NAVIGATION_CADASTRO: Test Cases/NAVIGATION_MENU/TC_NAVIGATION_CADASTRO FAILED because (of) org.openqa.selenium.WebDriverException: No command or response codec has been defined. Unable to proceed
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MVBRRECDSK2925', ip: '192.168.7.231', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: AppiumDriver
+
+2018-05-23 15:18:25 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-23 15:18:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-23 15:18:30 - [TEST_STEP][PASSED] - hideKeyboard: null
+
+2018-05-23 15:18:30 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/NAVIGATION_MENU/TC_NAVIGATION_CADASTRO' (Root cause: Call Test Case 'Test Cases/NAVIGATION_MENU/TC_NAVIGATION_CADASTRO' failed because of error(s))]]></system-out>
+         <system-err><![CDATA[2018-05-23 15:18:23 - [TEST_CASE][ERROR] - Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001: Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001 FAILED because (of) org.openqa.selenium.WebDriverException: No command or response codec has been defined. Unable to proceed
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MVBRRECDSK2925', ip: '192.168.7.231', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: AppiumDriver]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-23 15:18:23 - [TEST_SUITE][INCOMPLETE] - TS_TC_MONVIT_CADC_001: null]]></system-out>
+      <system-err><![CDATA[2018-05-23 15:18:23 - [TEST_SUITE][INCOMPLETE] - TS_TC_MONVIT_CADC_001: null]]></system-err>
+   </testsuite>
+</testsuites>

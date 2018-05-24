@@ -1,3 +1,6 @@
+import br.com.mv.monitoring.cadastrocontas.genericClass as GenericClass
+import br.com.mv.monitoring.excel.ExcelUtils as ExcelUtils
+
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -19,43 +22,97 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testdata.ExcelData as ExcelData
+import com.kms.katalon.core.testdata.DBData as DBData
+
+// Instanciando objetos ExcelData
+ExcelData dataConfig = findTestData('CONFIG')
+ExcelData dataTC = findTestData('DP_MONITORING_VITALS')
+DBData usersResultQuery = findTestData('DB_CADASTRAR_CONTA')
+
+// Instanciando objetos GenericClass
+
+GenericClass gc = new genericClass()
+ExcelUtils eu = new ExcelUtils()
+
+// Inicializndo nome do TestCase e Path do APK
+def testCaseID = dataTC.getValue(2, 1)
+def pathAPK = dataConfig.getValue(2, 2)
+def idxImgEvidence = 0
+
+// Criando estrutura de diretórios de evidências
+
+new File(dataConfig.getValue(3, 3) + testCaseID).mkdirs()
+
+// Inputs e Objetos informados na planilha
+def objTituloTela = dataTC.getValue(13, 6)
+def valueTituloTela = dataTC.getValue(14, 6)
+def objNomeCompleto = dataTC.getValue(13, 7)
+def valueNomeCompleto = dataTC.getValue(14, 7)
+def objCPF = dataTC.getValue(13, 8)
+def valueCPF = dataTC.getValue(14, 8)
+def objDataNascimento = dataTC.getValue(13, 9)
+def valueDataNascimento = dataTC.getValue(14, 9)
+def objSexo = dataTC.getValue(13, 10)
+def objItemSexo = dataTC.getValue(14, 10)
+def objCelular = dataTC.getValue(13, 11)
+def valueCelular = dataTC.getValue(14, 11)
+
+
+// Objetos da Aplicação
+
+def AppObjTituloTela = findTestObject('OBJ_SCREEN_REGISTER/lblTituloTela')
+def nomeCompleto = findTestObject('OBJ_SCREEN_REGISTER/txtNomeCompleto')
+def lblNomeCompleto = findTestObject('OBJ_SCREEN_REGISTER/lblNomeCompleto')
+
+// Mensagens de validação
+
+def requiredFields = 'Este campo é obrigatório'
+
+//========================================================================================
+//========================================================================================
 
 // TC_START_APPLICATION
-WebUI.callTestCase(findTestCase('START_APPLICATION/TC_START_APPLICATION'), [('pathApp') : 'APK/MONVIT_v1.7.24.apk'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('START_APPLICATION/TC_START_APPLICATION'), [('pathApp') : pathAPK], FailureHandling.STOP_ON_FAILURE)
 
 // TC_NAVIGATION_CADASTRO
 WebUI.callTestCase(findTestCase('NAVIGATION_MENU/TC_NAVIGATION_CADASTRO'), [:], FailureHandling.STOP_ON_FAILURE)
 
-def pathTestCaseName = 'Screenshots/TC_MONVIT_CADC_001'
-
-def folderTestCaseName = new File(pathTestCaseName)
-
-def idxImgEvidence = 0
-
-// Mensagens de validação 
-def strMsgCampoObrigatorio = 'Esse campo é obrigatório.'
-def strMsgNomeCompleto = 'Você precisa informar o seu nome completo'
-def strInvalidCPF = 'CPF inválido'
-def strMinCharactersCPF = 'Pelo menos 11 caracteres'
-def strMaxAgeDate = 'A idade máxima é de 150 anos'
-def strMinAgeDate = 'A idade mínima é de 5 anos'
-def strInvalidEmail = 'Endereço de email inválido'
-def strPassSmall = 'Senha muito curta'
-def strUseTerms = 'Senha muito curta'
-
 Mobile.hideKeyboard()
-Mobile.tap(findTestObject('OBJ_SCREEN_REGISTER/btnSalvar'), 5)
+
 Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
 
-// Verificando se diretório de Screenshots do TestCase existe
-if (!(folderTestCaseName.exists())) {
-    folderTestCaseName.mkdirs()
+// Validação de obrigatoriedade de campos
+
+if(gc.textEquals('OBJ_SCREEN_REGISTER/' + AppObjTituloTela, valueTituloTela))
+{
+	Mobile.tap(findTestObject('OBJ_SCREEN_REGISTER/btnSalvar'), 5)
+	
+	if(gc.validadeRequiredFields(nomeCompleto, lblNomeCompleto, requiredFields))
+	{
+		
+	}
 }
 
-// Validando obrigatoriedade do campo Nome Completo, CPF e Data Nascimento
+if (Mobile.getAttribute(findTestObject('OBJ_SCREEN_REGISTER/lblTituloTela'), 'text', 5) == valueTituloTela) {
 
-if ((Mobile.getAttribute(findTestObject('OBJ_SCREEN_REGISTER/MSG_VALIDATIONS/lblValidationNomeCompleto'), 'text', 5) == strMsgCampoObrigatorio) && (Mobile.getAttribute(findTestObject('OBJ_SCREEN_REGISTER/MSG_VALIDATIONS/lblValidationCPF'), 'text', 5) == strMsgCampoObrigatorio) && (Mobile.getAttribute(findTestObject('OBJ_SCREEN_REGISTER/MSG_VALIDATIONS/lblValidationDataNascimento'), 'text', 5) == strMsgCampoObrigatorio)) {
-    Mobile.takeScreenshot(((pathTestCaseName + '/') + (idxImgEvidence + 1)) + '.png')
+    Mobile.setText(findTestObject('OBJ_SCREEN_REGISTER/' + objNomeCompleto), valueNomeCompleto, 5)
+    Mobile.setText(findTestObject('OBJ_SCREEN_REGISTER/' + objCPF), valueCPF, 5)
+    Mobile.setText(findTestObject('OBJ_SCREEN_REGISTER/' + objDataNascimento), valueDataNascimento, 5)
+    Mobile.tap(findTestObject('OBJ_SCREEN_REGISTER/' + objSexo), 5)
+    Mobile.tap(findTestObject('OBJ_SCREEN_REGISTER/' + objItemSexo), 5)
+    Mobile.setText(findTestObject('OBJ_SCREEN_REGISTER/' + objCelular), valueCelular, 5)
+
+    Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+    Mobile.takeScreenshot(((((dataConfig.getValue(3, 3) + '/') + testCaseID) + '/') + (idxImgEvidence + 1)) + '.png')
 
     idxImgEvidence = (idxImgEvidence + 1)
+
+    
 }
+
+def userTableResult = usersResultQuery.getAllData()
+
+Mobile.delay(1, FailureHandling.STOP_ON_FAILURE)
+

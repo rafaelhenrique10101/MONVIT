@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_TC_MONVIT_CADC_001" time="71" tests="0" failures="1" errors="0">
+   <testsuite name="TS_TC_MONVIT_CADC_001" tests="0" failures="1" errors="0" time="71" timestamp="2018-05-23 15:28:16" hostname="rafael.henrique - MVBRRECDSK2925.mvrec.local" id="Test Suites/TS_TC_MONVIT_CADC_001">
+      <properties>
+         <property name="deviceName" value="motorola Moto G (5) (Android 7.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180523_152815"/>
+         <property name="logFiles" value="C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180523_152815\\appium.log, C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180523_152815\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180523_152815\\1527100161723.png, C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180523_152815\\1527100163161.png"/>
+         <property name="hostName" value="rafael.henrique - MVBRRECDSK2925.mvrec.local"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.0"/>
+         <property name="deviceModel" value="Moto G (5)"/>
+         <property name="hostAddress" value="192.168.7.231"/>
+         <property name="deviceManufacturer" value="motorola"/>
+         <property name="deviceId" value="0038153251"/>
+         <property name="deviceName" value="motorola Moto G (5) (Android 7.0)"/>
+         <property name="deviceOSVersion" value="7.0"/>
+      </properties>
+      <testcase name="Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001" classname="Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001" status="FAILED">
+         <failure type="FAILED" message="Failed to set text into element (Root cause: Object Object Repository/OBJ_SCREEN_REGISTER/txtDataNascimento not found)"/>
+         <system-out><![CDATA[2018-05-23 15:28:17 - [TEST_CASE][FAILED] - Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001: Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001 FAILED because (of) Failed to set text into element (Root cause: Object Object Repository/OBJ_SCREEN_REGISTER/txtDataNascimento not found)
+
+2018-05-23 15:28:17 - [TEST_STEP][PASSED] - Statement - dataConfig = com.kms.katalon.core.testdata.TestDataFactory.findTestData(CONFIG): Reading excel file with source file 'C:\Users\rafael.henrique\Desktop\AutoExec_GH - [Template].xlsx' and sheet name 'Config'
+
+2018-05-23 15:28:18 - [TEST_STEP][PASSED] - Statement - dataTC = com.kms.katalon.core.testdata.TestDataFactory.findTestData(DP_MONITORING_VITALS): Reading excel file with source file 'C:\Users\rafael.henrique\Katalon Studio\MONVAT\Data Files\AutoExec_GH - [Template].xlsx' and sheet name 'Scripts'
+
+2018-05-23 15:28:18 - [TEST_STEP][PASSED] - Statement - folderScreenshotsTestCase = new java.io.File(dataConfig.getValue(3, 3)): null
+
+2018-05-23 15:28:18 - [TEST_STEP][PASSED] - Statement - pathAPK = dataConfig.getValue(2, 2): null
+
+2018-05-23 15:28:18 - [TEST_STEP][PASSED] - Statement - idxImgEvidence = 0: null
+
+2018-05-23 15:28:18 - [TEST_STEP][PASSED] - Statement - If (!(folderScreenshotsTestCase.exists())): null
+
+2018-05-23 15:28:18 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/START_APPLICATION/TC_START_APPLICATION' successfully
+
+2018-05-23 15:28:18 - [TEST_CASE][PASSED] - Test Cases/START_APPLICATION/TC_START_APPLICATION: Test Cases/START_APPLICATION/TC_START_APPLICATION
+
+2018-05-23 15:28:18 - [TEST_STEP][PASSED] - startApplication: Started app at: 'C:\Users\rafael.henrique\Katalon Studio\MONVAT\APK\MONVIT_v1.7.24.apk'
+
+2018-05-23 15:28:58 - [MESSAGE][PASSED] - Started app at: 'C:\Users\rafael.henrique\Katalon Studio\MONVAT\APK\MONVIT_v1.7.24.apk'
+
+2018-05-23 15:28:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/START_APPLICATION/TC_START_APPLICATION' successfully
+
+2018-05-23 15:28:58 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/NAVIGATION_MENU/TC_NAVIGATION_CADASTRO' successfully
+
+2018-05-23 15:28:58 - [TEST_CASE][PASSED] - Test Cases/NAVIGATION_MENU/TC_NAVIGATION_CADASTRO: Test Cases/NAVIGATION_MENU/TC_NAVIGATION_CADASTRO
+
+2018-05-23 15:28:58 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-23 15:29:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-23 15:29:03 - [TEST_STEP][PASSED] - hideKeyboard: Keyboard is hidden
+
+2018-05-23 15:29:04 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2018-05-23 15:29:04 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-23 15:29:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-23 15:29:06 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/OBJ_LOGIN_SCREEN/android.widget.Button1 - No tenho uma conta. Quero me cadastrar.'
+
+2018-05-23 15:29:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/OBJ_LOGIN_SCREEN/android.widget.Button1 - No tenho uma conta. Quero me cadastrar.'
+
+2018-05-23 15:29:08 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-23 15:29:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-23 15:29:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/NAVIGATION_MENU/TC_NAVIGATION_CADASTRO' successfully
+
+2018-05-23 15:29:10 - [TEST_STEP][PASSED] - Statement - objTituloTela = dataTC.getValue(13, 6): null
+
+2018-05-23 15:29:10 - [TEST_STEP][PASSED] - Statement - valueTituloTela = dataTC.getValue(14, 6): null
+
+2018-05-23 15:29:10 - [TEST_STEP][PASSED] - Statement - objNomeCompleto = dataTC.getValue(13, 7): null
+
+2018-05-23 15:29:10 - [TEST_STEP][PASSED] - Statement - valueNomeCompleto = dataTC.getValue(14, 7): null
+
+2018-05-23 15:29:10 - [TEST_STEP][PASSED] - Statement - objCPF = dataTC.getValue(13, 8): null
+
+2018-05-23 15:29:10 - [TEST_STEP][PASSED] - Statement - valueCPF = dataTC.getValue(14, 8): null
+
+2018-05-23 15:29:10 - [TEST_STEP][PASSED] - Statement - objDataNascimento = dataTC.getValue(13, 9): null
+
+2018-05-23 15:29:10 - [TEST_STEP][PASSED] - Statement - valueDataNascimento = dataTC.getValue(14, 9): null
+
+2018-05-23 15:29:10 - [TEST_STEP][PASSED] - Statement - objSexo = dataTC.getValue(13, 10): null
+
+2018-05-23 15:29:10 - [TEST_STEP][PASSED] - Statement - objItemSexo = dataTC.getValue(14, 10): null
+
+2018-05-23 15:29:10 - [TEST_STEP][PASSED] - Statement - objCelular = dataTC.getValue(13, 11): null
+
+2018-05-23 15:29:10 - [TEST_STEP][PASSED] - Statement - valueCelular = dataTC.getValue(14, 11): null
+
+2018-05-23 15:29:10 - [TEST_STEP][PASSED] - Statement - valueTituloTelaApp = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OBJ_SCREEN_REGISTER/lblTituloTela), "text", 5): Element 'Object Repository/OBJ_SCREEN_REGISTER/lblTituloTela' has attribute 'text' is 'Crie sua conta'
+
+2018-05-23 15:29:11 - [MESSAGE][PASSED] - Element 'Object Repository/OBJ_SCREEN_REGISTER/lblTituloTela' has attribute 'text' is 'Crie sua conta'
+
+2018-05-23 15:29:11 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-05-23 15:29:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-05-23 15:29:12 - [TEST_STEP][FAILED] - Statement - If (valueTituloTelaApp == valueTituloTela): Failed to set text into element (Root cause: Object Object Repository/OBJ_SCREEN_REGISTER/txtDataNascimento not found)
+
+2018-05-23 15:29:12 - [TEST_STEP][PASSED] - setText: Text 'Carlos de Souza' has been set to element 'Object Repository/OBJ_SCREEN_REGISTER/txtNomeCompleto'
+
+2018-05-23 15:29:13 - [MESSAGE][PASSED] - Text 'Carlos de Souza' has been set to element 'Object Repository/OBJ_SCREEN_REGISTER/txtNomeCompleto'
+
+2018-05-23 15:29:13 - [TEST_STEP][PASSED] - setText: Text '67628356788' has been set to element 'Object Repository/OBJ_SCREEN_REGISTER/txtCPF'
+
+2018-05-23 15:29:16 - [MESSAGE][PASSED] - Text '67628356788' has been set to element 'Object Repository/OBJ_SCREEN_REGISTER/txtCPF'
+
+2018-05-23 15:29:16 - [TEST_STEP][FAILED] - setText: Failed to set text into element (Root cause: Object Object Repository/OBJ_SCREEN_REGISTER/txtDataNascimento not found)
+
+2018-05-23 15:29:23 - [MESSAGE][FAILED] - Object Object Repository/OBJ_SCREEN_REGISTER/txtDataNascimento not found
+[[ATTACHMENT|C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180523_152815\\1527100161723.png]]
+
+2018-05-23 15:29:24 - [MESSAGE][FAILED] - Failed to set text into element (Root cause: Object Object Repository/OBJ_SCREEN_REGISTER/txtDataNascimento not found)
+[[ATTACHMENT|C:\\Users\\rafael.henrique\\Katalon Studio\\MONVAT\\Reports\\TS_TC_MONVIT_CADC_001\\20180523_152815\\1527100163161.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-23 15:28:17 - [TEST_CASE][FAILED] - Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001: Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001 FAILED because (of) Failed to set text into element (Root cause: Object Object Repository/OBJ_SCREEN_REGISTER/txtDataNascimento not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-23 15:28:16 - [TEST_SUITE][FAILED] - TS_TC_MONVIT_CADC_001: Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001 FAILED because (of) Failed to set text into element (Root cause: Object Object Repository/OBJ_SCREEN_REGISTER/txtDataNascimento not found)]]></system-out>
+      <system-err><![CDATA[2018-05-23 15:28:16 - [TEST_SUITE][FAILED] - TS_TC_MONVIT_CADC_001: Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001 FAILED because (of) Failed to set text into element (Root cause: Object Object Repository/OBJ_SCREEN_REGISTER/txtDataNascimento not found)]]></system-err>
+   </testsuite>
+</testsuites>

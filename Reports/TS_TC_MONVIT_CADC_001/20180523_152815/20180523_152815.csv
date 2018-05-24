@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_TC_MONVIT_CADC_001,,,2018-05-23 15:28:16,2018-05-23 15:29:28,"1m - 11,026s",FAILED
+,,,,,,
+Test Cases/TEST_SCENARIOS/CADASTRO DE CONTAS/TC_MONVIT_CADC_001,,TC_MONVIT_CADC_001 - Validar obrigatoriedade dos campos abaixo no formul\u00E1rio de cria\u00E7\u00E3o de conta N\u00C3O preenchendo e clicando em salvar\n\nNome completo\nCPF\nData de nascimento\nTelefone celular\nEmail\nConfirme seu email\nSenha\nConfirme sua senha\nTermos de uso,2018-05-23 15:28:17,2018-05-23 15:29:24,"1m - 7,111s",FAILED
+Statement - dataConfig = com.kms.katalon.core.testdata.TestDataFactory.findTestData(CONFIG),,,2018-05-23 15:28:17,2018-05-23 15:28:18,"0,768s",PASSED
+Statement - dataTC = com.kms.katalon.core.testdata.TestDataFactory.findTestData(DP_MONITORING_VITALS),,,2018-05-23 15:28:18,2018-05-23 15:28:18,"0,051s",PASSED
+"Statement - folderScreenshotsTestCase = new java.io.File(dataConfig.getValue(3, 3))",,,2018-05-23 15:28:18,2018-05-23 15:28:18,"0,024s",PASSED
+"Statement - pathAPK = dataConfig.getValue(2, 2)",,,2018-05-23 15:28:18,2018-05-23 15:28:18,"0,001s",PASSED
+Statement - idxImgEvidence = 0,,,2018-05-23 15:28:18,2018-05-23 15:28:18,"0,001s",PASSED
+Statement - If (!(folderScreenshotsTestCase.exists())),,,2018-05-23 15:28:18,2018-05-23 15:28:18,"0,001s",PASSED
+callTestCase,,,2018-05-23 15:28:18,2018-05-23 15:28:58,"40,295s",PASSED
+callTestCase,,,2018-05-23 15:28:58,2018-05-23 15:29:10,"11,880s",PASSED
+"Statement - objTituloTela = dataTC.getValue(13, 6)",,,2018-05-23 15:29:10,2018-05-23 15:29:10,"0,008s",PASSED
+"Statement - valueTituloTela = dataTC.getValue(14, 6)",,,2018-05-23 15:29:10,2018-05-23 15:29:10,"0,002s",PASSED
+"Statement - objNomeCompleto = dataTC.getValue(13, 7)",,,2018-05-23 15:29:10,2018-05-23 15:29:10,"0,003s",PASSED
+"Statement - valueNomeCompleto = dataTC.getValue(14, 7)",,,2018-05-23 15:29:10,2018-05-23 15:29:10,"0,001s",PASSED
+"Statement - objCPF = dataTC.getValue(13, 8)",,,2018-05-23 15:29:10,2018-05-23 15:29:10,"0,003s",PASSED
+"Statement - valueCPF = dataTC.getValue(14, 8)",,,2018-05-23 15:29:10,2018-05-23 15:29:10,"0,025s",PASSED
+"Statement - objDataNascimento = dataTC.getValue(13, 9)",,,2018-05-23 15:29:10,2018-05-23 15:29:10,"0,000s",PASSED
+"Statement - valueDataNascimento = dataTC.getValue(14, 9)",,,2018-05-23 15:29:10,2018-05-23 15:29:10,"0,001s",PASSED
+"Statement - objSexo = dataTC.getValue(13, 10)",,,2018-05-23 15:29:10,2018-05-23 15:29:10,"0,000s",PASSED
+"Statement - objItemSexo = dataTC.getValue(14, 10)",,,2018-05-23 15:29:10,2018-05-23 15:29:10,"0,000s",PASSED
+"Statement - objCelular = dataTC.getValue(13, 11)",,,2018-05-23 15:29:10,2018-05-23 15:29:10,"0,000s",PASSED
+"Statement - valueCelular = dataTC.getValue(14, 11)",,,2018-05-23 15:29:10,2018-05-23 15:29:10,"0,001s",PASSED
+"Statement - valueTituloTelaApp = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(OBJ_SCREEN_REGISTER/lblTituloTela), ""text"", 5)",,,2018-05-23 15:29:10,2018-05-23 15:29:11,"0,522s",PASSED
+delay,,,2018-05-23 15:29:11,2018-05-23 15:29:12,"1,003s",PASSED
+Statement - If (valueTituloTelaApp == valueTituloTela),,,2018-05-23 15:29:12,2018-05-23 15:29:24,"12,180s",FAILED
